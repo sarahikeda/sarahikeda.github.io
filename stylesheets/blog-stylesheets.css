@@ -1,5 +1,4 @@
 * {
-  color: purple;
   background-color: #ffffff;
   font-size: 16px;
   background-image:url("https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/stylesheets/wet_snow.png");
@@ -12,8 +11,9 @@ img {
 }
 
 .header p {
-  font-size: 30px;
-  font-style: "Palatino Linotype", sans-serif;
+  font-size: 70px;
+  font-family: laCompagniedesOmbres;
+  src: url("https://github.com/sarahikeda/sarahikeda.github.io/blob/master/stylesheets/la%20Compagnie%20des%20Ombres.ttf");
   margin-left: 30px;
   margin-top: 30px;
   border-bottom: 1px solid black;
