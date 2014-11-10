@@ -80,3 +80,9 @@ p {
   display: inline-block;
   float: right;
 }
+
+#linkedin img {
+  height:30px;
+  width: 35px;
+  float: left;
+}
