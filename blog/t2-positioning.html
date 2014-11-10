@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets.css">
+    <title>4 Ways To Position</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="header">
+        <p>Sarah Ing<br>
+        Dev Bootcamp</p>
+      </div>
+
+      <div class="entry">
+        <h1 id="title">The 4 Ways To Position Elements</h1>
+        <h4>November 9th, 2014</h4>
+        <ol>
+        <li class="term">Static</li>
+        position: static <br>
+        All elements start off as static but it is rarely utilized. <br>
+        Usage: Rare
+        </p>
+
+
+      <li class="term">Relative</li>
+      "Relative to itself"<br>
+      position: relative<br>
+      The element is positioned in relation to where it would normally be. <br>To use, make sure to include another positioning attribute to shift the element (top, bottom, left, right).<br>
+
+      Usage: Common but often misused<br>
+
+      Ex:
+      position: relative
+      left: 20px
+
+      <li class="term">Absolute</li>
+      position: absolute<br>
+
+      The attributes you set will be relative to the parent element with relative or absolute positioning.<br>
+
+      If there is no parent, the element will place itself relative to the page.<br>
+
+      Absolute positoning is not affected by other elements.<br>
+
+      Pros: Place an element anywhere you choose!<br>
+
+      Cons: Overusing this type of positioning limits the flexibility of the website.<br>
+
+      Usage: Common, easily overused<br>
+
+      <li class="term">Fixed</li>
+      position: fixed<br>
+      Element is positioned relative to the browser window and stays put when page scrolls.<br>
+
+      Pro: Creates a cool effect because element is always present<br>
+      Con: Usability/can cut off content<br>
+      Usage: Rare
+      </div>
+
+      <div class="about">
+        <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/082/008/3da1466.jpg"/>
+        <h3>About Me</h3>
+        <p>Hello! I am a part of the 2015 Chicago cohort for DBC. I an an enthusastic web-developer-to-be. Feel free to check out what I've been working on!</p>
+
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

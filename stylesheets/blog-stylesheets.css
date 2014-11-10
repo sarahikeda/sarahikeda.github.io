@@ -49,5 +49,13 @@ img {
 
 p {
   max-width: 800px;
+}
 
+.term {
+  font-style: bold;
+  font-size: 40px;
+}
+
+#title {
+  font-size: 40px;
 }
