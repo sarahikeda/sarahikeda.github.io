@@ -1,15 +1,15 @@
 * {
-  background-color: #ffffff;
-  font-size: 18px;
-
+  background-color: #FFCF5F;
+  font-size: 20px;
   font-family: 'Roboto Slab'
 }
 
-img {
-  border-radius: 25px;
-  display: inline;
-  margin-right: 80;
-  width: 130px;
+.about img {
+  border-radius: 100px;
+  margin-right: 80px;
+  height: 250px;
+  width: 250px;
+  opacity: 0.8;
 }
 
 .header p {
@@ -33,7 +33,7 @@ img {
   max-width: 80%;
   margin-left: 100px;
   /*border: 1px dashed black;*/
-  padding: 10px;
+
   padding-right: 40px;
 }
 
@@ -47,9 +47,14 @@ img {
 
 .navigation li {
   float: right;
-  padding-right: 20px;
-  display: inline;
+  padding-right: 40px;
   list-style-type: none;
+
+}
+.navigation li a {
+   text-decoration: none;
+   color: black;
+   font-size: 22px;
 }
 
 p {
@@ -67,7 +72,12 @@ p {
 
 .suggestion li {
   list-style-type: none;
+}
+
+.suggestion li a {
   text-decoration: none;
+  color: black;
+  font-size:18px;
 }
 .footer {
   border-top: 4px solid black;
@@ -78,8 +88,6 @@ p {
 }
 
 .footer li {
-  text-decoration: none;
-  display: inline-block;
   float: right;
 }
 
@@ -87,4 +95,5 @@ p {
   height:30px;
   width: 38px;
   float: left;
+  margin: 0 10px 20px 0;
 }
