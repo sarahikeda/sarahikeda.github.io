@@ -28,7 +28,6 @@
 
 .about {
   float: left;
-  width: 500px;
   /* display: inline-block;*/
   max-width: 80%;
   margin-left: 100px;
@@ -57,17 +56,19 @@
    font-size: 22px;
 }
 
-p {
-  max-width: 800px;
+.about p {
+  width: 500px;
+  margin-left: 300px;
+  position: relative;
+  bottom: 200px;
 }
 
 .suggestion {
-  position: relative;
-  margin-top: 80px;
-  margin-left: 240px;
+  position: absolute;
+  top: 400px;
   /*border: 4px solid black;*/
   padding: 10px 20px;
-  display: inline-block;
+  right: 100px;
 }
 
 .suggestion li {
