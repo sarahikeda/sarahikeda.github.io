@@ -3,8 +3,6 @@
   /*font-size: 20px;*/
   /*background-image:url("https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/stylesheets/wet_snow.png");*/
   font-family: 'RobotoSlab'
-  text-decoration: none;
-  opacity: 0.05;
 }
 
 .about img {
@@ -47,14 +45,24 @@
 .suggestion li {
   list-style-type: none;
   text-decoration: none;
+  font-color: #F0624D;
 }
 
 .recent {
   text-align: center;
   padding-right: 20px;
+  font-size: 16px;
 }
-.recent li {
+
+.recent li{
+   list-style-type: none;
+   font-size: 20px;
+}
+.recent li a{
+  margin-right: 40px;
   list-style-type: none;
+  text-decoration: none;
+  color: #F0624D;
 }
 
 p {
