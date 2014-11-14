@@ -3,6 +3,7 @@
   /*font-size: 20px;*/
   /*background-image:url("https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/stylesheets/wet_snow.png");*/
   font-family: 'RobotoSlab'
+  text-decoration: none;
   opacity: 0.05;
 }
 
@@ -28,9 +29,7 @@
   float: right;
   /*display: inline-block;*/
   max-width: 20%;
-  margin-top: 0px;
-  margin-left: 80%;
-  padding: 10px;
+  padding-right: 100px;
 }
 
 .about p {
