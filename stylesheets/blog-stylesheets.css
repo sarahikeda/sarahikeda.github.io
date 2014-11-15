@@ -1,7 +1,7 @@
 * {
   background-color: #F44D4D;
   font-size: 20px;
-  /*font-family: 'Roboto Slab'*/
+  font-family: 'Roboto Slab'
 }
 
 .about img {
@@ -34,6 +34,9 @@
   margin-right: 100px;
 }
 
+.about p {
+    font-size: 14px;
+}
 .entry {
   float: left;
   width: 50%;
