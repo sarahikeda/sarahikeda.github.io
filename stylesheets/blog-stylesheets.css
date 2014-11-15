@@ -1,13 +1,16 @@
 * {
-  background-color: #ffffff;
-  font-size: 16px;
-  background-image:url("https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/stylesheets/wet_snow.png");
+  background-color: #FFCF5F;
+  font-size: 20px;
+  /*font-family: 'Roboto Slab'*/
 }
 
-img {
-  border-radius: 25px;
-  display: inline;
-  margin-right: 80;
+.about img {
+  border-radius: 100px;
+  margin-right: 80px;
+  height: 180px;
+  width: 180px;
+  opacity: 0.8;
+  margin-top: 40px;
 }
 
 .header p {
@@ -26,9 +29,8 @@ img {
 
 .about {
   float: right;
-  width: 500px;
   display: inline-block;
-  max-width: 200px;
+  max-width: 250px;
   margin-right: 100px;
 }
 
@@ -38,24 +40,48 @@ img {
   display: inline-block;
   margin-left: 80px;
   margin-bottom: 100px;
-}
-
-/*.navigation {
-  float: right;
-  display: block;
-  padding-right: 100px;
-  clear: both;
-}*/
+  }
 
 p {
   max-width: 800px;
-}
+  }
 
 .term {
   font-style: bold;
   font-size: 40px;
-}
+  }
 
 #title {
   font-size: 40px;
+}
+
+.navigation li {
+  float: right;
+  padding-right: 40px;
+  list-style-type: none;
+
+}
+.navigation li a {
+   text-decoration: none;
+   color: black;
+   font-size: 22px;
+}
+
+.footer {
+  border-top: 4px solid black;
+  margin-top:550px;
+  margin-bottom:20px;
+  height: 60px;
+  /*margin-right: 160px ;*/
+}
+
+.footer li {
+  float: right;
+}
+
+#linkedin img {
+  height:30px;
+  width: 38px;
+  float: left;
+  margin: 0 10px 20px 0;
 }
