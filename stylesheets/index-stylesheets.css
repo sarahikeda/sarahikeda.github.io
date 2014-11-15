@@ -22,17 +22,12 @@
   padding: 1px;
 }
 
-/*.all {
-  margin:0 auto;
-}*/
-
 .about {
   float: left;
   /* display: inline-block;*/
   max-width: 80%;
   margin-left: 100px;
   /*border: 1px dashed black;*/
-
   padding-right: 40px;
 }
 
@@ -97,4 +92,6 @@
   width: 38px;
   float: left;
   margin: 0 10px 20px 0;
+  border-radius: 100px;
+  opacity: 0.8;
 }
