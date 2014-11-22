@@ -75,11 +75,19 @@ p {
   margin-top:550px;
   margin-bottom:20px;
   height: 60px;
+  text-decoration: none;
   /*margin-right: 160px ;*/
 }
 
 .footer li {
   float: right;
+  text-decoration: none;
+  list-style: none
+}
+
+#linkedin ul li a {
+text-decoration: none;
+
 }
 
 #linkedin img {
