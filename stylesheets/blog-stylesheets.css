@@ -72,7 +72,7 @@ p {
 
 .footer {
   border-top: 4px solid black;
-  margin-top:550px;
+  margin-top:800px;
   margin-bottom:20px;
   height: 60px;
   text-decoration: none;
@@ -95,4 +95,18 @@ text-decoration: none;
   width: 38px;
   float: left;
   margin: 0 10px 20px 0;
+}
+
+.suggestion  {
+  position: absolute;
+  right: 40px;
+
+}
+.suggestion li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+
+
 }
