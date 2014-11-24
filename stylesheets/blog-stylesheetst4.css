@@ -4,6 +4,10 @@
   font-family: 'Roboto Slab'
 }
 
+a {
+  color: black;
+}
+
 .about img {
   border-radius: 100px;
   margin-right: 80px;
@@ -72,7 +76,7 @@ p {
 
 .footer {
   border-top: 4px solid black;
-  margin-top:800px;
+  margin-top:1000px;
   margin-bottom:20px;
   height: 60px;
   text-decoration: none;
