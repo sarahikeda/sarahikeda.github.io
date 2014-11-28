@@ -7,9 +7,8 @@
 
 .about img {
   border-radius: 100px;
-  margin-right: 80;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
 }
 
 .header p {
@@ -24,10 +23,12 @@
 
 
 .about {
-  float: right;
-  /*display: inline-block;*/
+  position: absolute;
+  top: 300px;
+  right: 10px;
+  clear: both;
   max-width: 20%;
-  padding-right: 100px;
+  padding-right: 30px;
 }
 
 .about p {
