@@ -31,7 +31,7 @@
   float: right;
   display: inline-block;
   max-width: 250px;
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 .about p {
@@ -99,7 +99,7 @@ text-decoration: none;
 
 .suggestion  {
   position: absolute;
-  right: 40px;
+  right: 5px;
 
 }
 .suggestion li a{
