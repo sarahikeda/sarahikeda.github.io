@@ -2,10 +2,10 @@
 
 title: Sarah Ing
 locale: en_US
-description: Sarah Ing's blog and dbc WORK.
+description: Sarah Ing's Blog
 logo: edited.jpg
 search: true
-url:
+url: sarahikeda.github.io
 
 
 # Jekyll configuration
@@ -36,9 +36,9 @@ owner:
   avatar: edited.jpg
   email: sarahikeda@gmail.com
   disqus-shortname:
-  twitter: #username
+  twitter: sarah_ing
   facebook: #username
-  github: #username
+  github: sarahikeda
   stackexchange: #http://stackoverflow.com/users/123456/username
   linkedin: #username
   instagram: #username

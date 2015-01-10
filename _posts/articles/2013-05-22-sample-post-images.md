@@ -1,67 +1,23 @@
 ---
 layout: post
-title: "A Post with Images"
-excerpt: "Examples and code for displaying images in posts."
-categories: articles
-tags: [sample-post, images, test]
-comments: true
-share: true
+title: "Stereotype Threat"
+modified:
+categories: blog
+excerpt:
+tags: []
+image:
+  feature:
+date: 2014-12-07T15:39:55-04:00
 ---
+## Phase 0, Week 6
 
-Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Each instance of `figure` is auto-numbered and displayed in the caption.
+While transitioning into the field of computer programming, it is almost impossible to not hear about imposter syndrome, especially as a woman programmer. The syndrome, while quite self-explanatory, can lead to underachievement or discomfort, due to the feeling of not belonging. In programming, the number of women has grown tremendously, but is still noticeably lower than the male presence. While I think this is an important topic to cover and one I have given a lot of thought to, I wanted to examine other types of stereotype threat.
 
-## Figures (for images or video)
+Stereotype threat describes when members of a group will not perform well, due to being generalized negatively.
+For me, as an Asian-American, my race can be perceived a certain way. One stereotype in particular is the idea of Asians, particularly female asians, being docile, demure beings. I've had this come up a number of times in the past in a variety of settings. In one instance in particular, I was having a conversation with a new acquaintance. When I voiced a contradictory opinion to his, he expressed his surprise, saying I wasn't what he expected as an Asian woman. I remember feeling very angry at his ability to generalize entirety of one race. And shocked. Me? When there's something I strongly disagree on, I will not hesitate to speak up. In these instances, different people have expected me to be more shy and less opinionated than I am. I have noticed that my awareness of this can sometimes play into how I act around others, causing me to be more reserved. It's an interesting thing to surprise others, when you are not what they expected.
 
-### One Up
+In programming and in life in general, it's important to not make too many assumptions. For one, it stops you from being curious and examining each situation and getting to know someone as an individual. Secondly, in the case of stereotype threat, it can perpetuate negativity that is based on a false premise, causing others to feel badly about themselves.
 
-<figure>
-	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg" alt="image"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
-</figure>
+Recently, I went to a Tech4Good Meetup and there was a developer who was creating an app on oppressive language. The way we express ourselves is a thing of interest to me and in particular, I thought this was a good basis for eliminating stereotype threat. With the app, users could look up oppressive words and then find alternatives that didn't have the same negative effects. I think that bringing awareness to the situation and finding ways to change the way we perpetuate these prejudices are key. It's a difficult, uncomfortable thing to confront someone about this in public, but I think it's a necessary thing to do, and can be done kindly. Rather than attacking the speaker and using emotion, it's important to explain the reasoning for speaking up and then suggesting how to make a change, without being aggressive.
 
-### Two Up
-
-Apply the `half` class like so to display two images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="half">
-	<img src="/images/image-filename-1.jpg" alt="image">
-	<img src="/images/image-filename-2.jpg" alt="image">
-	<figcaption>Caption describing these two images.</figcaption>
-</figure>
-{% endhighlight %}
-
-And you'll get something that looks like this:
-
-<figure class="half">
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<img src="http://placehold.it/600x300.jpg" alt="image">
-	<img src="http://placehold.it/600x300.jpg" alt="image">
-	<figcaption>Two images.</figcaption>
-</figure>
-
-### Three Up
-
-Apply the `third` class like so to display three images side by side that share the same caption.
-
-{% highlight html %}
-<figure class="third">
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<figcaption>Caption describing these three images.</figcaption>
-</figure>
-{% endhighlight %}
-
-And you'll get something that looks like this:
-
-<figure class="third">
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<a href="http://placehold.it/1200x600.jpg"><img src="http://placehold.it/600x300.jpg" alt="image"></a>
-	<figcaption>Three images.</figcaption>
-</figure>
+Although these words are up there on the cheesiness scale, I believe in the Golden Rule of do unto others what you would want done to you. We are all individuals striving to succeed (however we define success) and to belong in our society. Rather than trying to come out on top while pushing others down, it's even better to rise up together.

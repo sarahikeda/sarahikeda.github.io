@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-01-09T22:11:17-06:00</updated>
+<updated>2015-01-10T17:48:20-06:00</updated>
 <id>/</id>
 <author>
   <name>Sarah Ing</name>
@@ -16,35 +16,125 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Hello World]]></title>
-  <link rel="alternate" type="text/html" href="/blog/hello-world/" />
-  <id>/blog/hello-world</id>
-  <published>2014-08-08T14:39:55-05:00</published>
-  <updated>2014-08-08T14:39:55-05:00</updated>
+  <title type="html"><![CDATA[Stereotype Threat]]></title>
+  <link rel="alternate" type="text/html" href="/blog/sample-post-images/" />
+  <id>/blog/sample-post-images</id>
+  <published>2014-12-07T13:39:55-06:00</published>
+  <updated>2014-12-07T13:39:55-06:00</updated>
   <author>
     <name>Sarah Ing</name>
     <uri></uri>
     <email>sarahikeda@gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
-To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+  <content type="html">&lt;h2 id=&quot;phase-0-week-6&quot;&gt;Phase 0, Week 6&lt;/h2&gt;
 
-&lt;h2 id=&quot;sample-heading&quot;&gt;Sample Heading&lt;/h2&gt;
+&lt;p&gt;While transitioning into the field of computer programming, it is almost impossible to not hear about imposter syndrome, especially as a woman programmer. The syndrome, while quite self-explanatory, can lead to underachievement or discomfort, due to the feeling of not belonging. In programming, the number of women has grown tremendously, but is still noticeably lower than the male presence. While I think this is an important topic to cover and one I have given a lot of thought to, I wanted to examine other types of stereotype threat.&lt;/p&gt;
 
-&lt;h3 id=&quot;sample-heading-2&quot;&gt;Sample Heading 2&lt;/h3&gt;
+&lt;p&gt;Stereotype threat describes when members of a group will not perform well, due to being generalized negatively.
+For me, as an Asian-American, my race can be perceived a certain way. One stereotype in particular is the idea of Asians, particularly female asians, being docile, demure beings. I’ve had this come up a number of times in the past in a variety of settings. In one instance in particular, I was having a conversation with a new acquaintance. When I voiced a contradictory opinion to his, he expressed his surprise, saying I wasn’t what he expected as an Asian woman. I remember feeling very angry at his ability to generalize entirety of one race. And shocked. Me? When there’s something I strongly disagree on, I will not hesitate to speak up. In these instances, different people have expected me to be more shy and less opinionated than I am. I have noticed that my awareness of this can sometimes play into how I act around others, causing me to be more reserved. It’s an interesting thing to surprise others, when you are not what they expected.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;In programming and in life in general, it’s important to not make too many assumptions. For one, it stops you from being curious and examining each situation and getting to know someone as an individual. Secondly, in the case of stereotype threat, it can perpetuate negativity that is based on a false premise, causing others to feel badly about themselves.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Recently, I went to a Tech4Good Meetup and there was a developer who was creating an app on oppressive language. The way we express ourselves is a thing of interest to me and in particular, I thought this was a good basis for eliminating stereotype threat. With the app, users could look up oppressive words and then find alternatives that didn’t have the same negative effects. I think that bringing awareness to the situation and finding ways to change the way we perpetuate these prejudices are key. It’s a difficult, uncomfortable thing to confront someone about this in public, but I think it’s a necessary thing to do, and can be done kindly. Rather than attacking the speaker and using emotion, it’s important to explain the reasoning for speaking up and then suggesting how to make a change, without being aggressive.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Although these words are up there on the cheesiness scale, I believe in the Golden Rule of do unto others what you would want done to you. We are all individuals striving to succeed (however we define success) and to belong in our society. Rather than trying to come out on top while pushing others down, it’s even better to rise up together.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/blog/sample-post-images/&quot;&gt;Stereotype Threat&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on December 07, 2014.&lt;/p&gt;</content>
+</entry>
 
 
-  &lt;p&gt;&lt;a href=&quot;/blog/hello-world/&quot;&gt;Hello World&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on August 08, 2014.&lt;/p&gt;</content>
+  
+
+<entry>
+  <title type="html"><![CDATA[Pair Programming]]></title>
+  <link rel="alternate" type="text/html" href="/blog/readability-post/" />
+  <id>/blog/readability-post</id>
+  <published>2014-11-28T13:39:55-06:00</published>
+  <updated>2014-11-28T13:39:55-06:00</updated>
+  <author>
+    <name>Sarah Ing</name>
+    <uri></uri>
+    <email>sarahikeda@gmail.com</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;phase-0-week-5&quot;&gt;Phase 0, Week 5&lt;/h2&gt;
+
+&lt;p&gt;In the programming world, pair programming is a common occurrence. It’s the opportunity to work with another person, collaborating on code. How a session is run greatly depends on the pair’s preference, but usually involves one person driving (typing) and another navigating (directing the driver). Another way to pair is called ping pong pairing, which involves two people simultaneously working on the code with one writing the test and the other writing code to pass the other’s test.&lt;/p&gt;
+
+&lt;p&gt;In the last five weeks of DBC, I’ve had the opportunity to pair with many people in my cohort on challenges. While initially nervous to expose my novice knowledge to others, I now find myself eager to jump right in with pairing challenges. I think this is greatly attributed to the openness, willingness and curiosity of my fellow DBC students. Being able to work on something together provides instant feedback and encouragement.&lt;/p&gt;
+
+&lt;p&gt;It’s been interesting to see different people’s thinking styles and discover the best way to work together. The biggest thing I’ve learned for a successful pairing session, is to have open communication. It’s important to check in with your pair, discuss strategy and make sure both people are comfortable. It’s also been crucial to talk through obstacles and one’s thought process. Admittedly, for me, this is not always easy. I like to think on my own when tackling problems but pair programming has made me realize that my partner is also an asset and can be key in pointing out something or making suggestions.&lt;/p&gt;
+
+&lt;p&gt;With each pairing session, through the handy DBC tool, “Feedbackinator”, I’ve given and received feedback from my partner. When I first heard about this, it reminded me of the days of AOL Instant Messenger. In middle school, I remember someone in my school sent out a survey that could be filled out anonymously, to rate an individual on looks, intelligence and popularity. Thankfully the survey only made it to a couple people, but I do remember it creating drama because anonymous feedback led to some not-nice comments. On the contrary, though, Feedbackinator has been an ego-boosting, positive tool. I’ve learned from comments that I can be my worst critic because I’ll think I didn’t contribute enough, even though the feedback from my partner will say the contrary. Getting feedback like this is encouraging and also reinforces the importance of pair programming best practices (communication, communication, communication)!&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/blog/readability-post/&quot;&gt;Pair Programming&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on November 28, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Thinking Style]]></title>
+  <link rel="alternate" type="text/html" href="/blog/sample-post/" />
+  <id>/blog/sample-post</id>
+  <published>2014-11-14T13:39:55-06:00</published>
+  <updated>2014-11-14T13:39:55-06:00</updated>
+  <author>
+    <name>Sarah Ing</name>
+    <uri></uri>
+    <email>sarahikeda@gmail.com</email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;phase-0-week-2&quot;&gt;Phase 0, Week 2&lt;/h1&gt;
+
+&lt;p&gt;I’m a sucker for personality tests. I remember spending a large amount of time (too much) in middle school taking quiz after quiz, from chain e-mails to magazines. The draw for me has always been the value in reading the results. Each test, no matter the topic (“What does your favorite candy say about you?”, “What age do you actually act?”) provided a little more insight into myself so I could reflect and improve.&lt;/p&gt;
+
+&lt;p&gt;At the beginning of Dev Bootcamp we were asked to take a test on our thinking styles.Enthusiastically, I answered the questions, picking the most-fitting words from a set of attributes. Was I precise? Systematic? A people person?&lt;/p&gt;
+
+&lt;p&gt;The results of the test indicated that I am an: Abstract Random Thinker&lt;/p&gt;
+
+&lt;p&gt;My first though, upon reading this, was, “Oh crap.” That doesn’t sound like an ideal computer programmer! That means I’m not an orderly, sequential thinker. That means I’m all over the place! After taking another second to recover and reflect, I realized that being an abstract random thinker can also be an advantage.&lt;/p&gt;
+
+&lt;p&gt;Abstract thinkers flourish when they are able to brainstorm ideas and using their intuition, beyond what is actually on the surface. As an abstract random thinker, I enjoy listening to others and participating in group activities.&lt;/p&gt;
+
+&lt;p&gt;Looking back on the past couple weeks of DBC (I can’t believe it’s the end of week 3 already!), I have certainly gotten to know myself better and seen some of these qualities come into play. I’ve really enjoyed the practice of pair programming for the opportunity to collaborate with others and discuss our ideas ahead of time. Working on one challenge at a time, has also required me to focus on one thing at a time, which is pinpointed as a potential weakness for abstract random.&lt;/p&gt;
+
+&lt;p&gt;DBC also introduced the concept of a fixed mindset vs. growth mindset, which I found useful while learning programming (especially at such a rapid pace). The growth mindset emphasizes that one’s ability is not limited and one can work on becoming better and stronger. Reflecting back on my abstract random thinking through this growth mindset, I am aware that I can play up my strengths while simultaneously improving upon my weaknesses.&lt;/p&gt;
+
+&lt;p&gt;All in all, the test was a fun throwback to my quiz-taking days and I found value in the results. I have a feeling that I’ll be coming out of DBC not just with programming skills, but with greater understanding of myself as a whole. Bring it on!&lt;/p&gt;
+
+&lt;div&gt;&lt;a href=&quot;http://web.cortland.edu/andersmd/learning/gregorc.htm&quot; class=&quot;btn&quot;&gt;Thinking Style &lt;/a&gt;&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/blog/sample-post/&quot;&gt;Thinking Style&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on November 14, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Fireside Chat]]></title>
+  <link rel="alternate" type="text/html" href="/blog/hello-world/" />
+  <id>/blog/hello-world</id>
+  <published>2014-11-01T14:39:55-05:00</published>
+  <updated>2014-11-01T14:39:55-05:00</updated>
+  <author>
+    <name>Sarah Ing</name>
+    <uri></uri>
+    <email>sarahikeda@gmail.com</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;phase-0-week-1&quot;&gt;Phase 0, Week 1&lt;/h2&gt;
+
+&lt;p&gt;To cap off the first week, Shereef Bishay, founder of DBC, held a fireside chat about the program. I found myself wow-ed by Shereef’s humility and came away from the talk with enough quotes to plaster my bedroom walls and refrigerator with.&lt;/p&gt;
+
+&lt;p&gt;Shereef introduced the concept of Kitchen Vs. Restaurant. You see, most of us slip into the habit of being the consumer. When you go to a restaurant you peruse the menu, select the most desirable item, and then wait to be served. Perhaps you’ll complain amount the amount of the time the dish takes to be prepared or have buyer’s envy when you see a neighboring diner eating a hearty steak while you’re pushing around salad leaves. The thing is, you’re in a passive role, waiting for things to happen to you.&lt;/p&gt;
+
+&lt;p&gt;In contrast, students who attend DBC are encouraged to join the kitchen. Get out your chef’s hat! Sharpen the knives! Start seasoning the soup (ok, you get it)! Basically, it’s a “Hey, take charge of your learning. Be the one creating.”With joining the kitchen ranks, students will then take owernship and invest in their own learning.&lt;/p&gt;
+
+&lt;p&gt;Alongside this key metaphor, is the encouragement to “expose your ignorance.” This makes me nervous but I am going to rise to the challenge. As a longtime practitioner of the fixed mindset, I shy away from this because frankly, I don’t want to appear unintelligent. What happens if everyone else is taking the new information in stride while I struggle with it?&lt;/p&gt;
+
+&lt;p&gt;When it comes down to it, I am responsible for taking note of what I do not understand and voicing this issue when it comes up. Being vulnerable and adapting to the growth mindset of embracing struggle, will pay off, not just at DBC, but in all aspects of life.&lt;/p&gt;
+
+&lt;p&gt;Much like a fitness bootcamp instructor (without all the yelling and pushups, thank god), Shereef’s talk was an empowering one. I’m grateful to be a part of DBC and am excited to keep pushing myself to be the best developer possible. The most important thing is to keep embracing the challenges wholeheartedly, even when the going gets tough.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/blog/hello-world/&quot;&gt;Fireside Chat&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on November 01, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -315,272 +405,6 @@ end
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;/articles/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on May 23, 2013.&lt;/p&gt;</content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[A Post with Images]]></title>
-  <link rel="alternate" type="text/html" href="/articles/sample-post-images/" />
-  <id>/articles/sample-post-images</id>
-  <published>2013-05-22T00:00:00-05:00</published>
-  <updated>2013-05-22T00:00:00-05:00</updated>
-  <author>
-    <name>Sarah Ing</name>
-    <uri></uri>
-    <email>sarahikeda@gmail.com</email>
-  </author>
-  <content type="html">&lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h2 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h2&gt;
-
-&lt;h3 id=&quot;one-up&quot;&gt;One Up&lt;/h3&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;two-up&quot;&gt;Two Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;half&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;three-up&quot;&gt;Three Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;third&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/1200x600.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;http://placehold.it/600x300.jpg&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;image&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-  &lt;p&gt;&lt;a href=&quot;/articles/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on May 22, 2013.&lt;/p&gt;</content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
-  <link rel="alternate" type="text/html" href="/articles/readability-post/" />
-  <id>/articles/readability-post</id>
-  <published>2012-05-22T00:00:00-05:00</published>
-  <updated>2012-05-22T00:00:00-05:00</updated>
-  <author>
-    <name>Sarah Ing</name>
-    <uri></uri>
-    <email>sarahikeda@gmail.com</email>
-  </author>
-  <content type="html">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie &lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage &lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;/articles/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on May 22, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Sample Post]]></title>
-  <link rel="alternate" type="text/html" href="/articles/sample-post/" />
-  <id>/articles/sample-post</id>
-  <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00-06:00</published>
-  
-  <author>
-    <name>Sarah Ing</name>
-    <uri></uri>
-    <email>sarahikeda@gmail.com</email>
-  </author>
-  <content type="html">&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table rules=&quot;groups&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Non Pygments code example&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn&#39;t it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;div&gt;&lt;a href=&quot;http://mademistakes.com&quot; class=&quot;btn&quot;&gt;This is a button&lt;/a&gt;&lt;/div&gt;
-
-  &lt;p&gt;&lt;a href=&quot;/articles/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Sarah Ing at &lt;a href=&quot;&quot;&gt;Sarah Ing&lt;/a&gt; on March 10, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>
