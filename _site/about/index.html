@@ -78,13 +78,32 @@
 <div class="navigation-wrapper">
 	<nav role="navigation" id="site-nav" class="animated drop">
 	    <ul>
-
-
-
-
+      
+		    
+		        
+		    
 		    <li><a href="/about/" >About</a></li>
-		    <li><a href="/articles/" >Projects</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="/articles/" >Articles</a></li>
+		  
+		    
+		        
+		    
 		    <li><a href="/blog/" >Blog</a></li>
+		  
+		    
+		        
+		    
+		    <li><a href="/theme-setup/" >Theme Setup</a></li>
+		  
+		    
+		        
+		        
+		    <li><a href="http://mademistakes.com" target="_blank">Made Mistakes</a></li>
+		  
         <li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>
 	    </ul>
 	</nav>
@@ -101,11 +120,11 @@
 </div><!-- ./search-wrapper -->
 
 <header class="masthead">
-
+	
 		<div class="wrap">
 			<a href="/" class="site-logo" rel="home" title="Sarah Ing"><img src="/images/edited.jpg" width="200" height="200" alt="Sarah Ing logo" class="animated bounceInDown"></a>
 		</div>
-
+	
 </header><!-- /.masthead -->
 
 
@@ -113,22 +132,29 @@
 
 <div id="main" role="main">
   <article class="entry">
-
+    <img src="/images/so-simple-sample-image-4.jpg" class="entry-feature-image" alt="About the Jekyll Theme" ><p class="image-credit">Photo Credit: <a href="http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/">WeGraphics</a>
     <div class="entry-wrapper">
       <header class="entry-header">
-        <h1 class="entry-title">About Me</h1>
+        <h1 class="entry-title">About the Jekyll Theme</h1>
       </header>
       <div class="entry-content">
-        <p>Hello! I am a part of the 2015 Dev Bootcamp cohort in Chicago. I am an enthusiastic web-developer-to-be. Feel free to check out what I've been working on!</p>
+        <p>Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be <strong>So Simple Theme</strong>, the follow up to <a href="http://mmistakes.github.io/minimal-mistakes"><strong>Minimal Mistakes</strong></a> — by designer slash illustrator <a href="http://mademistakes.com">Michael Rose</a>.</p>
 
-<h2 id="so-simple-theme-is-all-about">A few of my favorite things:</h2>
+<h2 id="so-simple-theme-is-all-about">So Simple Theme is all about:</h2>
 
 <ul>
-  <li>Learning languages</li>
-  <li>Long train rides</li>
-  <li>Belly laughs</li>
-
+  <li>Responsive templates. Looking good on mobile, tablet, and desktop.</li>
+  <li>Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.</li>
+  <li>Minimal embellishments and subtle animations.</li>
+  <li>Optional large feature images for posts and pages.</li>
+  <li><a href="/404.html">Custom 404 page</a> to get you started.</li>
+  <li><a href="https://github.com/christian-fei/Simple-Jekyll-Search">Simple site search</a></li>
+  <li>Support for Disqus Comments</li>
 </ul>
+
+<p><a href="/theme-setup" class="btn">Install So Simple Theme</a></p>
+
+
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
   </article>
@@ -136,19 +162,19 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo" class="entry-wrapper">
-
+    
 
 <span>&copy; 2015 Sarah Ing. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/" rel="nofollow">So Simple Theme</a>.</span>
 <div class="social-icons">
-
-
-
-
-
-
-
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
   <a href="/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
 </div><!-- /.social-icons -->
   </footer>
@@ -171,14 +197,14 @@
   });
 
   (function( $, window, undefined ) {
-
+    
      var bs = {
           close: $(".close-btn"),
           searchform: $(".search-form"),
           canvas: $(".js-menu-screen"),
           dothis: $('.dosearch')
       };
-
+    
     bs.dothis.on('click', function() {
       $('.search-wrapper').css({ display: "block" });
       $('body').toggleClass('no-scroll');
@@ -186,7 +212,7 @@
       bs.searchform.find('input').focus();
       bs.canvas.toggleClass('is-visible');
     });
-
+    
       bs.close.on('click', function() {
         $('.search-wrapper').removeAttr( 'style' );
         $('body').toggleClass('no-scroll');
@@ -199,7 +225,7 @@
 
 
 
-
+          
 
 </body>
 </html>
