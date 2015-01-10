@@ -1,48 +1,11 @@
-<html>
-  <head>
-      <link rel="stylesheet" type="text/css" href="stylesheets/index-stylesheets.css">
-      <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-      <title>Sarah Ing's Website</title>
-  </head>
-  <body>
-     <div class="header">
-        <p>Sarah Ing<br>
-        Dev Bootcamp</p>
-      </div>
-      <div class="navigation">
-         <ul>
-            <li><a href="mailto:sarahikeda@gmail.com">Contact</a></li>
-            <li><a href="http://sarahikeda.github.io/projects.html">Projects</a></li>
-            <li><a href="http://sarahikeda.github.io/blog/blog-index.html">Blog</a></li>
-            <li><a href="http://sarahikeda.github.io/about.html">About</a></li>
-          </ul>
-      </div>
-      <div class="about">
-        <img src="imgs/edited.jpg"/>
-        <p><strong>About Me</strong></br>Hello! I am a part of the 2015 Dev Bootcamp cohort in Chicago. I am an enthusiastic web-developer-to-be. Feel free to check out what I've been working on!</p>
-      </div>
+---
+layout: page
+title: Latest Posts
+excerpt: "A simple and clean responsive Jekyll theme for words and photos."
+---
 
-      <div class="suggestion">
-        <ul>Recent Blog Posts:
-           <li><a href="http://sarahikeda.github.io/blog/t1-git-blog.html">Technical Blog: Git Ready</a></li>
-            <li><a href="http://sarahikeda.github.io/blog/c1-chefs-kitchen.html">Cultural Blog: Fireside Chat</a></li>
-            <li><a href="http://sarahikeda.github.io/cheat-sheet.html">JavaScript vs Ruby Cheatsheet</a></li>
-        </ul>
-      </div>
-
-    <div class="footer">
-        <ul>
-           <li id="linkedin">
-            <a href="https://www.linkedin.com/pub/sarah-ing/a1/978/aa6"><img src="imgs/linkedin.png"/></a>
-          </li>
-          <li id="linkedin">
-            <a href="https://twitter.com/Sarah_Ing"><img src="imgs/twitter.png"/></a>
-          </li>
-          <li id="linkedin">
-            <a href="https://github.com/sarahikeda"><img src="imgs/github.png"/></a>
-          </li>
-        </ul>
-    </div>
-  </body>
-</html>
+<ul class="post-list">
+{% for post in site.posts limit:10 %} 
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+{% endfor %}
+</ul>
