@@ -1,6 +1,15 @@
 [
 	
 		{
+		  "title"      : "Blog Redo",
+		  "category"   : "",
+      "tags"       : "",
+		  "url"        : "/blog/blog-redo/",
+		  "date"       : "2015-01-11 13:39:55 -0600",
+		  "shortdate"  : "January 11, 2015"
+		} ,
+	
+		{
 		  "title"      : "Pair Programming",
 		  "category"   : "",
       "tags"       : "",
