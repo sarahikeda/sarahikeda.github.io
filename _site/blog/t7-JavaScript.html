@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheetst7.css">
+     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+     <title>Ruby Hash vs. JavaScript Objects</title>
+  </head>
+  <body>
+      <div class="header">
+        <p>Sarah Ing <br>
+        Dev Bootcamp</p>
+      </div>
+      <div class="navigation">
+         <ul>
+             <li><a href="mailto:sarahikeda@gmail.com">Contact</a></li>
+            <li><a href="http://sarahikeda.github.io/projects.html">Projects</a></li>
+            <li><a href="http://sarahikeda.github.io/blog/blog-index.html">Blog</a></li>
+            <li><a href="http://sarahikeda.github.io/about.html">About</a></li>
+          </ul>
+      </div>
+      <div class="entry">
+        <h2>Ruby Hash vs. JavaScript Objects</h2>
+        <h4>12.11.2014</h4>
+        <p>Week 7 brought the switching of gears! After getting my feet wet with Ruby, we started working with JavaScript today. I found my head awash with parentheses and semicolons this week. In an effort to clarify some of the concepts we went over and the differences between the two languages, here is a post on Ruby hashes and JavaScript objects.</p>
+        <p>To refresh, a Ruby hash is a way to store data, with emphasis on order. Objects are stored as key, value pairs, as so:</p>
+        <img src="../imgs/t7-1.png"/>
+        <p>Javascript doesn't have a hash collection. Fear not, though, for there is an alternative. Reader, meet object literals:</p>
+        <img src="../imgs/t7-2.png"/>
+        <p>It doesn't look all that different, right? Object literals are a list of property names (always variables) with associated values.</p>
+        <h2>Ruby keys = JavaScript object properties</h2>
+        <p>To access information in the object literal, refer to the object and property like this:</br>
+        <img src="../imgs/t7-3.png"/></br>
+        //=> "pepperoni"</p>
+        <p>To access information in a Ruby hash:</br>
+        <img src="../imgs/t7-4.png"/></br></br>
+        => "pepperoni"</p>
+        <p>JavaScript: to change the pizza property from "pepperoni" to "mushroom" do this:</p>
+        <img src="../imgs/t7-5.png"/>
+        <p>Ruby:</p>
+        <img src="../imgs/t7-6.png"/>
+        <p>If a property hasn't been added yet in JavaScript, you will get:
+        food.dessert;</br>
+        //=> undefined</p>
+        <p>JavaScript: to add an additional property to food:</p>
+        <img src="../imgs/t7-7.png"/>
+        <p>Ruby:</p>
+        <img src="../imgs/t7-8.png"/>
+      </div>
+      <div class="about">
+        <img src="../imgs/edited.jpg"/>
+        <h3>About Me</h3>
+        <p>Hello! I am a part of the 2015 Chicago cohort for DBC. I am an enthusiastic web-developer-to-be. Feel free to check out what I've been working on!</p>
+        <div class="suggestion">
+        <ul>Archive
+          <li><a href="http://sarahikeda.github.io/blog/t1-git-blog.html">Technical Blog: Git Ready</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/c1-chefs-kitchen.html">Cultural Blog: Fireside Chat</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/t2-positioning.html">Technical Blog: 4 Ways to Position Elements</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/c3_thinking-style.html">Cultural Blog: Thinking Hard</a></li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer">
+        <ul>
+            <li id="linkedin">
+            <a href="https://www.linkedin.com/pub/sarah-ing/a1/978/aa6"><img src="../imgs/linkedin.png"/></a>
+          </li>
+          <li id="linkedin">
+            <a href="https://twitter.com/Sarah_Ing"><img src="../imgs/twitter.png"/></a>
+          </li>
+          <li id="linkedin">
+            <a href="https://github.com/sarahikeda"><img src="../imgs/github.png"/></a>
+          </li>
+        </ul>
+    </div>
+  </body>
+</html>

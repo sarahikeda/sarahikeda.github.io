@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheets-t2.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+    <title>4 Ways To Position</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="header">
+        <p>Sarah Ing<br>
+        Dev Bootcamp</p>
+      </div>
+
+      <div class="entry">
+        <h1 id="title">The 4 Ways To Position Elements</h1>
+        <h4>November 9th, 2014</h4>
+        <ol>
+        <li class="term">Static</li>
+       <p> position: static <br>
+        All elements start off as static but it is rarely utilized. <br>
+        Usage: Rare
+        </p>
+        <p>Here is a picture of four squares. They are all in static positioning.
+          <img src="https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/imgs/Initial.png"/></p>
+
+      <li class="term">Relative</li>
+      <p>"Relative to itself"<br>
+      position: relative<br>
+      The element is positioned in relation to where it would normally be. <br>To use, make sure to include another positioning attribute to shift the element (top, bottom, left, right).<br>
+
+      Usage: Common but often misused<br>
+
+      Ex:<br>
+      position: relative<br>
+      left: 20px</p>
+      <p> The green square is static. All of the other squares are in relative position with an attribute of left: 30px. This means that the three other squares have shifted 30px to the right, from where they were before.
+        <img src="https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/imgs/relative.png"/></p>
+
+      <li class="term">Absolute</li>
+      <p>position: absolute<br>
+
+      The attributes you set will be relative to the parent element with relative or absolute positioning.<br>
+
+      If there is no parent, the element will place itself relative to the page.<br>
+
+      Absolute positoning is not affected by other elements.<br>
+
+      Pros: Place an element anywhere you choose!<br>
+
+      Cons: Overusing this type of positioning limits the flexibility of the website.<br>
+
+      Usage: Common, easily overused<br></p>
+      <p> In this example the green square, as before, is static. The other squares are in absolute positioning, which means they place themselves in relation to the page (no parent element involved).The yellow, purple and blue square are positioned left at 30px, 60px and 90px respectively.
+        <img src="https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/imgs/absolute.png"/>
+      </p>
+
+      <li class="term">Fixed</li>
+      <p>position: fixed<br>
+      Element is positioned relative to the browser window and stays put when page scrolls.<br>
+
+      Pro: Creates a cool effect because element is always present<br>
+      Con: Usability/can cut off content<br>
+      Usage: Rare</p>
+      <p>In this final example, the green is static while the other squares are fixed. When the page is scrolled, the three squares go along with it, while the green stays put.
+        <img src="https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/imgs/fixed.png"/>
+      </p>
+      </div>
+
+      <div class="about">
+        <img src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/082/008/3da1466.jpg"/>
+        <h3>About Me</h3>
+        <p>Hello! I am a part of the 2015 Chicago cohort for DBC. I am an enthusastic web-developer-to-be. Feel free to check out what I've been working on!</p>
+
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      <h1>Recent Posts</h1>
+      <ul>
+          <li><a href="http://sarahikeda.github.io/blog/t1-git-blog.html">Technical Blog: Git Ready</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/c1-chefs-kitchen.html">Dev Culture: Fireside Chat</a></li>
+        </ul>
+      </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

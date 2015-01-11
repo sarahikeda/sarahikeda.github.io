@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheetst6.css">
+     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+     <title>Variable Scope</title>
+  </head>
+  <body>
+      <div class="header">
+        <p>Sarah Ing <br>
+        Dev Bootcamp</p>
+      </div>
+      <div class="navigation">
+         <ul>
+             <li><a href="mailto:sarahikeda@gmail.com">Contact</a></li>
+            <li><a href="http://sarahikeda.github.io/projects.html">Projects</a></li>
+            <li><a href="http://sarahikeda.github.io/blog/blog-index.html">Blog</a></li>
+            <li><a href="http://sarahikeda.github.io/about.html">About</a></li>
+          </ul>
+      </div>
+      <div class="entry">
+        <h2>Variable Scope: All Aout Context</h2>
+        <h4>12.02.2014</h4>
+        <p>In Ruby (and programming in general), there are a number of variables to choose from. Each type of variable has its own scope, which refers to its accessibility/visibility throughout a program. </br></br>
+        The types of variables are:</p>
+        <img src="../imgs/variable_scope1.png"/>
+        <p>The symbols in front of them indicate how to properly name them.</p>
+        <p>
+        $ global variable</br>
+        Pros: Available everywhere</br>
+        Cons: Available everywhere (can be changed by anyone and everyone)</br>
+        Easily overused (especially by beginners)</br>
+        </p>
+        <p>
+        @ instance variable</br>
+        Each instance/object of the class will have its own value.</br>
+        </p>
+        <p>
+        [a-z] or _  local variable</br>
+        Only accessible within its defined function or class declaration.</br>
+        </p>
+        <p>
+        @@ class variable</br>
+        Class variables are accessible to all instances of class.</br>
+        Cons: Pretty large scope. One object instance can change the value of the variable which can affect all object instances.
+        </p>
+        <p>
+        Unsure what type of variable you have?</br>
+        Use the <code>#defined?</code> method to find out what the scope.
+        </p>
+      <img src="../imgs/variable_scope2.png"/>
+        <p>All in all, not so bad, right? I hope this brief introduction to variable scope provides a little clarity.</p>
+      </div>
+
+      <div class="about">
+        <img src="../imgs/edited.jpg"/>
+        <h3>About Me</h3>
+        <p>Hello! I am a part of the 2015 Chicago cohort for DBC. I am an enthusiastic web-developer-to-be. Feel free to check out what I've been working on!</p>
+        <div class="suggestion">
+        <ul>Archive
+          <li><a href="http://sarahikeda.github.io/blog/t1-git-blog.html">Technical Blog: Git Ready</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/c1-chefs-kitchen.html">Cultural Blog: Fireside Chat</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/t2-positioning.html">Technical Blog: 4 Ways to Position Elements</a></li>
+          <li><a href="http://sarahikeda.github.io/blog/c3_thinking-style.html">Cultural Blog: Thinking Hard</a></li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="footer">
+        <ul>
+            <li id="linkedin">
+            <a href="https://www.linkedin.com/pub/sarah-ing/a1/978/aa6"><img src="../imgs/linkedin.png"/></a>
+          </li>
+          <li id="linkedin">
+            <a href="https://twitter.com/Sarah_Ing"><img src="../imgs/twitter.png"/></a>
+          </li>
+          <li id="linkedin">
+            <a href="https://github.com/sarahikeda"><img src="../imgs/github.png"/></a>
+          </li>
+        </ul>
+    </div>
+  </body>
+</html>

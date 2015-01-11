@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/blog/sample-post-images/</loc>
-    <lastmod>2014-12-07T13:39:55-06:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>/blog/readability-post/</loc>
     <lastmod>2014-11-28T13:39:55-06:00</lastmod>
     <priority>0.8</priority>
@@ -21,64 +16,149 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>/articles/author-override/</loc>
-    <lastmod>2014-06-19T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>/articles/code-highlighting-post/</loc>
-    <lastmod>2013-08-16T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>/articles/sample-link-post/</loc>
-    <lastmod>2013-08-12T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>/articles/video-post/</loc>
-    <lastmod>2013-06-25T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>/articles/readability-feature-post/</loc>
-    <lastmod>2013-05-23T00:00:00-05:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>/</loc>
-    <lastmod>2015-01-10T17:48:20-06:00</lastmod>
+    <lastmod>2015-01-10T19:26:50-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2015-01-10T17:48:20-06:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>/articles/</loc>
-    <lastmod>2015-01-10T17:48:20-06:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>/theme-setup/</loc>
-    <lastmod>2015-01-10T17:48:20-06:00</lastmod>
+    <loc>/projects/</loc>
+    <lastmod>2015-01-10T19:26:50-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/about/</loc>
-    <lastmod>2015-01-10T17:48:20-06:00</lastmod>
+    <lastmod>2015-01-10T19:26:50-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>/theme-setup/</loc>
+    <lastmod>2015-01-10T19:26:50-06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2015-01-10T19:26:50-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/blog/</loc>
-    <lastmod>2015-01-10T17:48:20-06:00</lastmod>
+    <lastmod>2015-01-10T19:26:50-06:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>/about.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/blog-index.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/blog-template.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c1-chefs-kitchen.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c3_thinking-style.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c4-tech-issues.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c5-feedback.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c6-stereotype-threat.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c7-values.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c8-conflict.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/c9-questions.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t1-git-blog.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t2-positioning.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t3-arrays-hashes.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t4-enumerable-methods.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t5-ruby-classes.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t6-oop-concepts.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t7-JavaScript.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/blog/t8-tech.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/cheat-sheet.html</loc>
+    <lastmod>2015-01-10T18:36:14-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/overhaul.html</loc>
+    <lastmod>2015-01-10T18:36:15-06:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>/projects.html</loc>
+    <lastmod>2015-01-10T18:36:15-06:00</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>

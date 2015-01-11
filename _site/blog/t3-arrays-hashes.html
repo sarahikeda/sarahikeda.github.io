@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheetst3.css">
+     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+     <title>Array vs. Hash Showdown</title>
+  </head>
+  <body>
+      <div class="header">
+        <p>Sarah Ing <br>
+        Dev Bootcamp</p>
+      </div>
+    <div class="navigation">
+         <ul>
+            <li><a href="http://sarahikeda.github.io">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+             <li><a href="mailto:sarahikeda@gmail.com">Contact</a></li>
+          </ul>
+          </ul>
+      </div>
+      <div class="entry">
+        <h1>Array vs. Hash Showdown</h1>
+        <h4>11/14/2014</h4>
+        <h1>What is an array?</h1>
+  <p>An object whose job is to store an ordered collection of objects.
+  It looks like this:
+  </p>
+  <code>food = Array.new</br>
+  food = ["pizza", "steak", "soup"]
+  or</br>
+  numbers = Array.new</br>
+  numbers = [1,2,6,4]
+  </code>
+
+<h1>What is a hash?</h1>
+  Also an ordered collection of objects!</br>
+  It looks like this:</br>
+  <code>
+  food = Hash.new</br>
+  food = {</br>
+  "pizza" => "pepperoni",</br>
+  "steak" => "rare",</br>
+  "soup" => "vegetable"</br>
+  }</br>
+  </code>
+
+<p>You can also write it like this:</p>
+  <code>
+  food = Hash.new</br>
+  food = {</br>
+    :pizza => "pepperoni",</br>
+    :steak => "rare",</br>
+    :soup => "vegetable"</br>
+  }</br>
+  </code>
+<p>Or even like this:</p>
+  <code>food = Hash.new</br>
+  food[:pizza] = "pepperoni"</br>
+  food[:steak] = "rare"</br>
+  food[:soup] = "vegetable"</br>
+  </code>
+
+<h1>Ah! So what's the difference?</h1>
+  <p>Hashes store their objects in pairs called keys and values and the order of the keys is crucial.</p>
+
+<h1>How do you access a value with an array?</h1>
+  <p><code>food = ["pizza", "steak", "soup"]</br>
+  food[0] = "pizza"</br>
+  food[2] = "soup"</br>
+  </p></code>
+<h1>How do you access a value with a hash?</h1>
+  <code>food = {</br>
+    :pizza => "pepperoni"</br>
+    :steak => "rare"</br>
+    :soup => "vegetable"</br>
+    }</br></br>
+  food["pizza"] = "pepperoni"</br>
+  food["soup"] = "vegetable"</br>
+  <code>
+
+<h1><em>Key</em> things to remember:</h1>
+  <ul>
+    <li>If you need to store a specific value with a label/key, go with a hash!</li>
+    <li>To access an array, refer to where it's indexed (starts at 0).</li>
+    <li>To access a hash, refer to the key. </li>
+  </ul>
+      </div>
+
+      <div class="about">
+        <img src="../imgs/edited.jpg"/>
+        <h3>About Me</h3>
+        <p>Hello! I am a part of the 2015 Chicago cohort for DBC. I am an enthusiastic web-developer-to-be. Feel free to check out what I've been working on!</p>
+         <div class="suggestion">
+            <ul>
+            <li><a href="http://sarahikeda.github.io">Home</a></li>
+            Archive
+            <li><a href="http://sarahikeda.github.io/blog/t1-git-blog.html">Technical Blog: Git Ready</a></li>
+            <li><a href="http://sarahikeda.github.io/blog/c1-chefs-kitchen.html">Cultural Blog: Fireside Chat</a></li>
+            <li><a href="http://sarahikeda.github.io/blog/t2-positioning.html">Technical Blog: 4 Ways to Position Elements</a></li>
+            <li><a href="http://sarahikeda.github.io/blog/c3_thinking-style.html">Cultural Blog: Thinking Hard</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer">
+        <ul>
+            <li id="linkedin">
+            <a href="https://www.linkedin.com/pub/sarah-ing/a1/978/aa6"><img src="../imgs/linkedin.png"/></a>
+          </li>
+          <li id="linkedin">
+            <a href="https://twitter.com/Sarah_Ing"><img src="../imgs/twitter.png"/></a>
+          </li>
+          <li id="linkedin">
+            <a href="https://github.com/sarahikeda"><img src="../imgs/github.png"/></a>
+          </li>
+        </ul>
+    </div>
+  </body>
+</html>
