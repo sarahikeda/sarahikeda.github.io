@@ -1,0 +1,30 @@
+* {
+
+  /*font-size: 20px;*/
+  /*background-image:url("https://raw.githubusercontent.com/sarahikeda/sarahikeda.github.io/master/stylesheets/wet_snow.png");*/
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.header p {
+  font-size: 40px;
+
+  margin-left: 30px;
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+  padding: 1px;
+}
+
+
+.jumbotron {
+  max-width: 60%;
+  margin-left: 10px;
+}
+
+.jumbotron p {
+  max-width: 80%;
+  padding: 20px;
+}
+
+
+
