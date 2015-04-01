@@ -1,17 +1,10 @@
 * {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
   font-family: 'Open Sans Condensed', sans-serif;
 
 }
 
-.page-header {
-  border-bottom: 1px solid black;
-}
+
 #name {
   font-size: 40px;
   margin-top: 0px;
@@ -76,14 +69,3 @@
 }
 
 #insession:hover { transform: scale(2.0); }
-
-  .header {
-        color: #36A0FF;
-        font-size: 27px;
-        padding: 10px;
-    }
-
-    .bigicon {
-        font-size: 35px;
-        color: #36A0FF;
-    }
