@@ -9,8 +9,7 @@
 
 }
 
-.header {
-  background-color: yellow;
+.page-header {
   border-bottom: 1px solid black;
 }
 #name {
@@ -43,8 +42,8 @@
   max-width: 80%;
   font-size: 40px;
   margin-top: 100px;
-  /*margin-left: 10px;*/
-  float: left;
+  margin-left: 60px;
+  /*float: left;*/
   /*display: inline;*/
 }
 
@@ -71,10 +70,20 @@
 }
 
 #insession {
-  margin-left: 20px;
+  margin-left: 200px;
   max-height: 650px;
   max-width: 400px;
 }
 
-#insession:hover { transform: scale(1.5); }
+#insession:hover { transform: scale(2.0); }
 
+  .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
