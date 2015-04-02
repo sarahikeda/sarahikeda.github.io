@@ -24,11 +24,12 @@
   float: right;
   list-style-type: none;
   margin-top: 20px;
-  margin-right: 100px;
+  margin-right: 60px;
 }
 
 #navright li {
   display: inline;
+  padding-left: 10px;
 }
 
 .bio {
@@ -69,3 +70,9 @@
 }
 
 #insession:hover { transform: scale(2.0); }
+
+
+
+#contact {
+  text-align:center;
+}
