@@ -2,14 +2,17 @@
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.container {
+max-width: 70%;
+}
 
 #name {
   font-size: 40px;
   margin-top: 0px;
   margin-left: 30px;
   float: left;
-
 }
+
 #name a {
   color: black;
   text-decoration: none;
@@ -17,8 +20,12 @@
 
 #name:hover { transform: scale(2.0); }
 
+.page-header a {
+  color: black;
+  text-decoration: none;
+}
 .break {
-  height: 100px;
+  height: 50px;
 }
 
 #navright {
@@ -27,7 +34,6 @@
   float: right;
   list-style-type: none;
   margin-top: 20px;
-  margin-right: 60px;
 }
 
 #navright li {
@@ -35,19 +41,22 @@
   padding-left: 10px;
 }
 
+.entry {
+  margin-left: 45px;
+  font-size: 20px;
+}
 .bio {
-  max-width: 80%;
-  font-size: 40px;
-  margin-top: 100px;
-  margin-left: 60px;
-  /*float: left;*/
-  /*display: inline;*/
+  max-width: 60%;
+  font-size: 30px;
+  margin-top: 40px;
+  padding-left: 100px;
+
 }
 
 #biopic {
-  margin-left: 0px;
-  padding-top: 40px;
+  margin-left: 100px;
   padding-right: 10px;
+  padding-top: 50px;
   max-height: 350px;
   max-width: 200px;
   border-radius: 100%;
@@ -55,29 +64,13 @@
   display: inline-block;
 }
 
-#projects {
-  margin-left: 10px;
-  display: block;
-  font-size: 20px;
-  max-width: 75%;
-}
-#interests {
-  font-size: 30px;
-  display: inline-block;
-}
-
-#insession {
-  margin-left: 200px;
-  max-height: 650px;
-  max-width: 400px;
-}
-
-#insession:hover { transform: scale(2.0); }
-
-
-
 #contact {
   text-align:center;
+
+}
+
+#contact a {
+  color: #CBC6BF;
 }
 
 #blog {
