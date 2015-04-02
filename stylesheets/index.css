@@ -40,8 +40,6 @@
   font-size: 40px;
   margin-top: 100px;
   margin-left: 60px;
-  /*float: left;*/
-  /*display: inline;*/
 }
 
 #biopic {
@@ -75,11 +73,15 @@
 #insession:hover { transform: scale(2.0); }
 
 
-
 #contact {
   text-align:center;
+  margin-bottom: 10px;
 }
 
 #blog {
 font-size: 20px;
+}
+
+#blog a {
+  text-decoration: none;
 }
