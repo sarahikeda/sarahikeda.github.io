@@ -12,8 +12,8 @@
   <body>
     <div class="container">
       <div class="page-header">
-        <p id="name"><a href="http://sarahikeda.github.io"> Sarah Ing</a></p>
-        <ul id="navright">
+        <p class="name"><a href="http://sarahikeda.github.io"> Sarah Ing</a></p>
+        <ul class="navright">
           <li><a href="sarahing.png" target="_blank">Resume</a></li>
           <li><a href="#projects" class="smoothScroll">Projects</a></li>
            <li><a href="#blog" class="smoothScroll">Blog</a></li>
@@ -22,16 +22,20 @@
       </div>
       <div class="row">
         <div class="bio">
-           <img id="biopic" src="imagebio.jpg" alt="Picture of Sarah">
+           <img class="biopic" src="imagebio.jpg" alt="Picture of Sarah">
           <p>I am a writer turned <span style="font-weight: bold">web developer</span>. I spent a bulk of my career writing about other people doing things but realized something was missing -- I wanted to be the one <span style="font-weight: bold">creating</span>. So, I learned how to <span style="font-weight: bold">code</span>.</p>
         </div>
       </div>
       <div class="break"></div>
       <div class="row">
-        <div id = "projects">
-          <h3>Projects</h3>
+        <h3 id ="projects">Projects</h3>
+        <div class = "projects-one">
           <p>InSession is a mobile application designed to connect online learners to in-person study groups. Students can also chat with their peers and seek help in the forum. Technologies utilized: Ruby on Rails, Postgres, Elastic Search, Faye, Mapbox and CoffeeScript.</p>
-          <img id="insession" src="insession.png" alt="Picture of Project">
+          <img class="insession" src="insession.png" alt="Picture of Project">
+        </div>
+         <div class = "projects-two">
+          <p>Bring Chips is a Rails application for those hosting or attending a potluck. Keep track of who's bringing what and avoid starvation.</p><br>
+          <img class="potluck" = src="potluck.png" alt="Picture of Potluck Project">
         </div>
       </div>
       <div class="break"></div>
@@ -47,7 +51,7 @@
       </div>
       <div class="break"></div>
       <div class="row">
-        <div id="contact">
+        <div class="contact">
           <h3>Reach out!</h3>
           <a href="mailto:sarahikeda@gmail.com"><i class="fa fa-envelope fa-5x"> </i>
         </div>
