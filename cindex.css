@@ -1,0 +1,42 @@
+body {
+  background: url('tea.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Slabo 27px', serif;
+}
+.carolyn-heading {
+/*  float: right;*/
+  margin-left: 40%;
+  color: rgb(218, 80, 138);
+  margin-top: -3%;
+  display: block;
+}
+
+.name p {
+  font-size: 8em;
+}
+
+.subtitle {
+  font-size: 4em;
+  margin-left: 10%;
+  margin-top: -20%;
+}
+
+a {
+  color: black;
+}
+
+i:hover {
+  color: rgb(218, 80, 138);
+}
+
+.contact  {
+  margin-top: 15%;
+  margin-left: 14%;
+}
+
+i {
+  padding: 10px;
+  border: 1px black solid;
+}
