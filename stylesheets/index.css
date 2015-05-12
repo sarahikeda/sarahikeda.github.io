@@ -84,6 +84,8 @@
 .potluck {
   max-height: 90%;
   max-width: 90%;
+  border: 1px black solid;
+  padding: 2px;
 }
 
 .potluck:hover { transform: scale(2.0); }
