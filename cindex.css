@@ -3,18 +3,19 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Slabo 27px', serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .carolyn-heading {
-/*  float: right;*/
-  margin-left: 40%;
+  float: left;
+  margin-left: 2%;
   color: rgb(218, 80, 138);
-  margin-top: -3%;
+  margin-top: -10%;
   display: block;
 }
 
 .name p {
   font-size: 8em;
+  max-width: 50%;
 }
 
 .subtitle {
@@ -33,10 +34,13 @@ i:hover {
 
 .contact  {
   margin-top: 15%;
-  margin-left: 14%;
+  float: right;
+  margin-right: 18%;
 }
 
 i {
-  padding: 10px;
-  border: 1px black solid;
+  padding: 15px;
+  border: 4px black solid;
+  border-radius: 100%;
+  background: rgba(0,0,0,0);
 }
