@@ -95,8 +95,8 @@ a {
 }
 
 .bridge {
-  align:center;
-  width: 70%;
+  margin-left: 150px;
+  width: 60%;
 }
 
 a{
@@ -109,7 +109,7 @@ i:hover {
 
 .explanation {
   margin-left: 40px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 i {
@@ -137,4 +137,13 @@ i {
   margin-left: 45px;
   font-size: 20px;
   max-width: 80%;
+}
+
+#find-more {
+  text-align: center;
+  font-size: 2em;
+}
+
+#find-more a {
+  color: #831BD2;
 }
