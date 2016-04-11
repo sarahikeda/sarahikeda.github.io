@@ -2,13 +2,11 @@
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-
 .name {
   font-size: 40px;
   margin-top: 0px;
   margin-left: 30px;
   float: left;
-
 }
 .name a {
   color: black;
@@ -18,7 +16,7 @@
 .name:hover { transform: scale(2.0); }
 
 .break {
-  height: 100px;
+  height: 50px;
 }
 
 .navright {
@@ -53,28 +51,46 @@
   display: inline-block;
 }
 
+.inspire h3{
+  text-align: center;
+}
+
+.inspire li {
+  margin-left: 200px;
+  font-size: 1.5em;
+}
+
+.inspire a {
+  color: black;
+  text-decoration: none;
+}
+
 .projects-one {
+  margin-left: 100px;
+  font-size: 20px;
+  max-width: 70%;
+}
+
+.projects-two {
   display: inline-block;
   font-size: 20px;
   max-width: 40%;
 }
 
-.projects-two {
+.projects-three {
   float: right;
   font-size: 20px;
   max-width: 40%;
 }
 
-
-.interests {
-  font-size: 30px;
-  display: inline-block;
+.oneus {
+  max-height: 90%;
+  max-width: 40%;
 }
 
+.oneus:hover { transform: scale(2.0); opacity: 0.05; }
+
 .insession {
-  /*margin-left: 200px;*/
-  /*max-height: 650px;*/
-  /*max-width: 400px;*/
   max-height: 90%;
   max-width: 90%;
 }
@@ -100,5 +116,6 @@ font-size: 20px;
 }
 
 #blog a {
+  color: black;
   text-decoration: none;
 }
