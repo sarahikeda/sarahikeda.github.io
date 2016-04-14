@@ -3,11 +3,7 @@
 }
 
 a {
-  text-decoration: none !important;
-}
-
-.page-header a {
-  color: black;
+  color: black !important;
 }
 
 .heading {
@@ -39,6 +35,7 @@ a {
 
 .name {
   font-size: 40px;
+  margin-top: 0px;
   margin-left: 30px;
   float: left;
 }
@@ -97,10 +94,6 @@ a {
 .bridge {
   margin-left: 150px;
   width: 60%;
-}
-
-a{
-  color: black;
 }
 
 i:hover {
