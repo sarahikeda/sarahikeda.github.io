@@ -5,6 +5,7 @@
 a {
   color: black !important;
 }
+
 .name {
   font-size: 40px;
   margin-top: 0px;
@@ -19,7 +20,7 @@ a {
 .name:hover { transform: scale(2.0); }
 
 .break {
-  height: 50px;
+  height: 150px;
 }
 
 .navright {
@@ -37,6 +38,7 @@ a {
 }
 
 .bio {
+  min-height: 100vh;
   max-width: 80%;
   font-size: 40px;
   margin-top: 100px;
@@ -54,6 +56,10 @@ a {
   display: inline-block;
 }
 
+.inspire {
+  min-height: 100vh;
+}
+
 .inspire h3{
   text-align: center;
 }
@@ -67,6 +73,9 @@ a {
   text-decoration: none;
 }
 
+.project {
+  min-height: 100vh;
+}
 .projects-one {
   margin-left: 100px;
   font-size: 20px;
@@ -93,7 +102,7 @@ a {
 .oneus:hover { transform: scale(2.0); opacity: 0.05; }
 
 .oneus a:hover {
-  transform: scale(2.0);
+  transform: scale(1.5);
   opacity: 0.05;
   text-decoration: none;
 }
@@ -103,7 +112,7 @@ a {
   max-width: 90%;
 }
 
-.insession:hover { transform: scale(2.0); }
+.insession:hover { transform: scale(1.2); }
 
 .potluck {
   max-height: 90%;
@@ -112,17 +121,25 @@ a {
   padding: 2px;
 }
 
-.potluck:hover { transform: scale(2.0); }
+.potluck:hover { transform: scale(1.2); }
 
 .contact {
   text-align:center;
   margin-bottom: 10px;
 }
 
-#blog {
-font-size: 20px;
+.blog {
+  font-size: 20px;
+  min-height: 100vh;
+  margin-top: 200px;
+  text-align: center;
 }
 
-#blog a {
+.blog li {
+  list-style-type: none;
+
+}
+
+.blog li a {
   text-decoration: none;
 }
