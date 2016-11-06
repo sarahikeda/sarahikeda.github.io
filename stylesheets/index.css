@@ -41,25 +41,21 @@ a {
 }
 
 .bio {
-  max-height: 20vh;
   max-width: 95vh;
   font-size: 4.0vh;
   position: absolute;
   left: 20%;
+  top: 25%;
+  padding-right: 60px;
 }
 
 #biopic {
-  padding-top: 40px;
   padding-right: 60px;
-  max-height: 60vh;
-  max-width: 60vh;
+  max-height: 45vh;
+  max-width: 45vh;
   border-radius: 100%;
   float: left;
   display: inline-block;
-}
-
-#biotext{
-  padding-top: 40px;
 }
 
 .inspire {
@@ -94,6 +90,7 @@ a {
   position: absolute;
   top: 30%;
   left: 20%;
+  padding-right: 60px;
 }
 
 .projects-one {
@@ -103,7 +100,7 @@ a {
 
 .projects-two {
   display: inline-block;
-  max-width: 50vh;
+  max-width: 40vh;
 }
 
 .insession {
@@ -114,7 +111,7 @@ a {
 .projects-three {
   float: right;
   font-size: 20px;
-  max-width: 50vh;
+  max-width: 40vh;
 }
 
 .potluck {
