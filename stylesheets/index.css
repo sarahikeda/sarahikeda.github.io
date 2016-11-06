@@ -64,7 +64,7 @@ a {
 
 .inspire {
   min-height: 100vh;
-  max-width: 90vh;
+  max-width: 80vh;
   position: absolute;
   left: 20%;
 }
@@ -81,6 +81,13 @@ a {
   text-decoration: none;
 }
 
+#halloween {
+  max-height: 40vh;
+  max-width: 40vh;
+  border-radius: 80%;
+  position: absolute;
+  left: 20%;
+}
 .projects {
   min-height: 100vh;
   font-size: 20px;
