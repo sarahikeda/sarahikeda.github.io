@@ -13,28 +13,28 @@
       <div class="page-header">
         <p class="name"><a href="http://sarahikeda.github.io"> Sarah Ing</a></p>
         <ul class="navright">
+          <li id="about"><a href="#about">About Me</a></li>
+          <li id="projects"><a href="#projects">Projects</a></li>
+          <br>
           <li><a href="SIResume.png" target="_blank">Resume</a></li>
-          <li><a href="#projects" class="smoothScroll">Projects</a></li>
-           <li><a href="#blog-title" class="smoothScroll">Blog</a></li>
-          <li><a href="mailto:sarahikeda@gmail.com">Contact</a></li>
+          <li id="contact"><a href="mailto:sarahikeda@gmail.com">Contact</a></li>
         </ul>
       </div>
-      <div class="row">
+      <div class="main-info">
         <div class="bio">
-           <img class="biopic" src="imagebio.jpg" alt="Picture of Sarah">
-          <p>I am a writer turned <span style="font-weight: bold">web developer</span>. I spent a bulk of my career writing about other people doing things but realized something was missing -- I wanted to be the one <span style="font-weight: bold">creating</span>. So, I learned how to <a href="https://github.com/sarahikeda"span style="font-weight: bold">code</span></a>.</p>
+          <img id="biopic" src="imagebio.jpg" alt="Picture of Sarah">
+          <p id="biotext">I am a writer turned <span style="font-weight: bold">web developer</span>. I spent a bulk of my career writing about other people doing things but realized something was missing -- I wanted to be the one <span style="font-weight: bold">creating</span>. So, I learned how to <a href="https://github.com/sarahikeda"span style="font-weight: bold">code</span></a>.</p>
+        </div>
+        <div class="inspire">
+          <h3>What Inspires Me:</h3>
+            <li>Empowerment.</li>
+            <li>Accessibility.</li>
+            <li>Sentiment analysis (natural language processing). How do we teach computers to understand us and essentially, be human?</li>
+            <li><a href="https://www.youtube.com/watch?v=gx91fd_7G4Y">Slam poetry.</a></li>
+            <li>Awkwardness. What are the moments that aren't formulaic?</li>
         </div>
       </div>
-      <div class="inspire">
-        <h3>What Inspires Me:</h3>
-          <li>Empowerment! With a focus on social justice.</li>
-          <li>Accessibility.</li>
-          <li>Sentiment analysis (natural language processing). How do we teach computers to understand us and essentially, to be human?</li>
-          <li><a href="https://www.youtube.com/watch?v=gx91fd_7G4Y">Slam poetry.</a></li>
-          <li>Awkwardness. What are the moments that aren't formulaic?</li>
-      </div>
       <div class="projects">
-        <h3 id="projects">Projects</h3>
         <div class="projects-one">
             <p><a href="https://github.com/sarahikeda/bringchips"><b>Bring Chips</b></a> is a Rails application for those hosting or attending a potluck. Keep track of who's bringing what and avoid starvation.</p><br>
             <a href="https://github.com/sarahikeda/bringchips"><img class="potluck" = src="potluck.png" alt="Picture of Potluck Project"></a>
@@ -53,3 +53,18 @@
     </div>
   </body>
 </html>
+
+<script>
+  $('.inspire').hide();
+  $('.projects').hide();
+  $('#about').click(function(){
+    $('.bio').hide();
+    $('.projects').hide();
+    $('.inspire').show();
+  });
+  $('#projects').click(function(){
+    $('.bio').hide();
+    $('.inspire').hide();
+    $('.projects').show();
+  });
+</script>

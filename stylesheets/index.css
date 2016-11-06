@@ -9,7 +9,7 @@ a {
 .name, .name a {
   font-size: 40px;
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 10px;
   float: left;
   text-decoration: none;
 }
@@ -19,12 +19,12 @@ a {
 }
 
 .navright {
-  margin-top: 20px;
   font-size: 20px;
   float: right;
   list-style-type: none;
-  margin-top: 20px;
-  margin-right: 60px;
+  position: absolute;
+  top: 8%;
+  left: 70%;
 }
 
 .navright li {
@@ -32,27 +32,41 @@ a {
   padding-left: 10px;
 }
 
-.bio {
-  min-height: 100vh;
-  max-width: 80vh;
-  font-size: 40px;
-  margin-top: 100px;
-  margin-left: 60px;
+#contact {
+  padding-left: 20px;
 }
 
-.biopic {
-  margin-left: 0px;
+.main-info {
+  margin-top: 100px;
+}
+
+.bio {
+  max-height: 20vh;
+  max-width: 95vh;
+  font-size: 4.0vh;
+  position: absolute;
+  left: 20%;
+}
+
+#biopic {
   padding-top: 40px;
-  padding-right: 10px;
-  max-height: 350px;
-  max-width: 200px;
+  padding-right: 60px;
+  max-height: 60vh;
+  max-width: 60vh;
   border-radius: 100%;
   float: left;
   display: inline-block;
 }
 
+#biotext{
+  padding-top: 40px;
+}
+
 .inspire {
   min-height: 100vh;
+  max-width: 90vh;
+  position: absolute;
+  left: 20%;
 }
 
 .inspire h3{
@@ -60,7 +74,6 @@ a {
 }
 
 .inspire li {
-  margin-left: 200px;
   font-size: 1.5em;
 }
 
@@ -71,6 +84,9 @@ a {
 .projects {
   min-height: 100vh;
   font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
 }
 
 .projects-one {
@@ -85,10 +101,8 @@ a {
 
 .insession {
   max-height: 90%;
-  max-width: 50vh;
+  max-width: 40vh;
 }
-
-.insession:hover { transform: scale(1.2); }
 
 .projects-three {
   float: right;
