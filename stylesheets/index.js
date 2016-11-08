@@ -1,12 +1,14 @@
-// <script language="javascript" type="text/javascript">
-// <!--
-// function popitup(url) {
-//     newwindow=window.open(url,'name','height=200,width=150');
-//     console.log("hi");
-//     if (window.focus) {newwindow.focus()}
-//       console.log("yoyo");
-//     return false;
-// }
-
-// // -->
-// </script>
+$(document).ready(function() {
+  $('.inspire').hide();
+  $('.projects').hide();
+  $('#about').click(function(){
+    $('.bio').hide();
+    $('.projects').hide();
+    $('.inspire').show();
+  });
+  $('#projects').click(function(){
+    $('.bio').hide();
+    $('.inspire').hide();
+    $('.projects').show();
+  });
+});
