@@ -121,13 +121,15 @@ a {
 .potluck:hover { transform: scale(1.1); }
 
 .decisions {
-  max-width: 120%;
+  max-height: 90%;
+  max-width: 100%;
 }
 
 .decisions:hover { transform: scale(1.1); }
 
 .oneus {
-  max-width: 80%;
+  max-height: 90%;
+  max-width: 100%;
 }
 
 .oneus:hover { transform: scale(1.1); }
