@@ -18,6 +18,9 @@ a {
   height: 150px;
 }
 
+.big-break {
+  height: 400px;
+}
 .navright {
   font-size: 20px;
   float: right;
@@ -84,34 +87,27 @@ a {
   position: absolute;
   left: 20%;
 }
+
 .projects {
   min-height: 100vh;
-  font-size: 20px;
+  font-size: 15px;
   position: absolute;
   top: 30%;
-  left: 20%;
-  padding-right: 60px;
+  padding-left: 16vh;
 }
 
-.projects-one {
-  margin-left: 100px;
-  max-width: 80vh;
+.projects-left {
+  float: left;
+  max-width: 34vh;
 }
 
-.projects-two {
-  display: inline-block;
-  max-width: 40vh;
+.projects-right {
+  float: right;
+  max-width: 30vh;
 }
 
 .insession {
-  max-height: 90%;
-  max-width: 40vh;
-}
-
-.projects-three {
-  float: right;
-  font-size: 20px;
-  max-width: 40vh;
+  max-width: 30vh;
 }
 
 .potluck {
