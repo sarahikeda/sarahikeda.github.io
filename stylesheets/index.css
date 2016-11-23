@@ -19,7 +19,7 @@ a {
 }
 
 .big-break {
-  height: 400px;
+  min-height: 45vh;
 }
 .navright {
   font-size: 20px;
@@ -91,30 +91,43 @@ a {
 .projects {
   min-height: 100vh;
   font-size: 15px;
-  position: absolute;
-  top: 30%;
-  padding-left: 16vh;
+  padding: 40px;
 }
 
 .projects-left {
   float: left;
-  max-width: 34vh;
+  max-width: 35vh;
 }
 
 .projects-right {
   float: right;
-  max-width: 30vh;
+  padding-left: 40px !important;
+  max-width: 50vh;
 }
 
 .insession {
   max-width: 30vh;
 }
 
+.insession:hover { transform: scale(1.1); }
+
 .potluck {
   max-height: 90%;
-  max-width: 90%;
+  max-width: 100%;
   border: 1px black solid;
   padding: 2px;
 }
 
-.potluck:hover { transform: scale(1.2); }
+.potluck:hover { transform: scale(1.1); }
+
+.decisions {
+  max-width: 120%;
+}
+
+.decisions:hover { transform: scale(1.1); }
+
+.oneus {
+  max-width: 80%;
+}
+
+.oneus:hover { transform: scale(1.1); }
