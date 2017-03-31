@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Space Mono', monospace;
 }
 
 body {
@@ -14,53 +14,21 @@ a {
   height: 150px;
 }
 
-.navright {
-  font-size: 20px;
-  float: right;
-  list-style-type: none;
-  position: absolute;
-  top: 8%;
-  left: 80%;
-}
-
-.navright li {
-  display: inline;
-  padding-left: 10px;
-}
-
-.navright a {
-  text-decoration: none;
-}
-
-.navright a:hover {
-  color: #ffffff;
-}
-
-#contact {
-  padding-left: 20px;
-}
-
-@media all and (max-width: 500px) {
-  #contact {
-    padding-left: 10px;
-  }
-}
-
 .main-info {
   margin-top: 100px;
 }
 
 .intro {
   width: 60%;
-  font-size: 3.0vh;
-  padding: 100px 0 0 200px;
+  font-size: 2.5vh;
+  padding: 20px 0 0 200px;
 }
 
 #question {
   font-size: 4.0vh;
 }
 
-#explanation {
-  padding-left: 100px;
+.explanation {
+  padding-left: 80px;
   max-width: 65vh;
 }
