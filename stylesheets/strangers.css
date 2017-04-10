@@ -1,0 +1,34 @@
+body {
+  font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #FFF72B;
+}
+
+a {
+  color: black;
+}
+
+.break {
+  height: 150px;
+}
+
+.main-info {
+  margin-top: 100px;
+}
+
+.intro {
+  width: 60%;
+  font-size: 2.5vh;
+  padding: 20px 0 0 200px;
+}
+
+#question {
+  font-size: 4.0vh;
+}
+
+.explanation {
+  padding-left: 40px;
+  max-width: 65vh;
+}
