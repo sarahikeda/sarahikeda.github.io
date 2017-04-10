@@ -15,9 +15,9 @@ a {
 }
 
 .intro {
-  width: 70%;
+  width: 75%;
   font-size: 2.2vh;
-  padding: 2px 0 0 200px;
+  padding: 2px 0 0 120px;
 }
 
 #question {
@@ -26,7 +26,7 @@ a {
 
 .explanation {
   padding-left: 40px;
-  max-width: 65vh;
+  max-width: 70vh;
 }
 
 #arrow {
