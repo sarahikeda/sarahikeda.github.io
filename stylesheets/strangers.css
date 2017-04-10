@@ -32,3 +32,7 @@ a {
   padding-left: 40px;
   max-width: 65vh;
 }
+
+#arrow {
+  max-width: 6vh;
+}
