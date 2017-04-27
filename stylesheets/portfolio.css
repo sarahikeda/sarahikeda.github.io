@@ -70,15 +70,18 @@ a {
 
 #design-projects {
   display: block;
-  margin-top: 300px;
+  margin-top: 200px;
   /*border: 2px solid blue;*/
 }
 
 .individual-project {
   float: left;
-  /*border: 2px solid red;*/
-  width: 33.33%;
+  width: 50%;
   height: 25%;
+}
+
+.write-up {
+  padding: 10%;
 }
 
 .project-img {
@@ -86,6 +89,10 @@ a {
 }
 
 .project-img:hover { transform: scale(1.2); }
+
+.blood-type {
+  width: 40%;
+}
 
 #coding-projects { display: block; }
 
@@ -97,6 +104,11 @@ a {
   max-width: 30vh;
 }
 
+.contribution {
+  margin-left: 28%;
+  max-width: 40vh;
+
+}
 .insession:hover { transform: scale(1.1); }
 
 .potluck {
