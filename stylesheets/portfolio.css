@@ -1,0 +1,108 @@
+* { box-sizing: border-box; }
+body {
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+a {
+  color: black !important;
+}
+
+.name, .name a {
+  font-size: 80px;
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
+}
+
+.break {
+  height: 150px;
+}
+
+.navright {
+  font-size: 20px;
+  float: right;
+  list-style-type: none;
+  position: absolute;
+  top: 8%;
+  left: 70%;
+}
+
+.navright li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.bio {
+  max-width: 95vh;
+  font-size: 4.0vh;
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  padding-right: 60px;
+}
+
+#headline {
+  font-size: 4.0vh;
+  text-align: center;
+}
+/*
+
+.inspire {
+  min-height: 100vh;
+  max-width: 80vh;
+  position: absolute;
+  left: 20%;
+}
+
+.inspire h3{
+  text-align: center;
+}
+
+.inspire li {
+  font-size: 1.5em;
+}
+
+.inspire a {
+  text-decoration: none;
+}
+*/
+
+#design-projects {
+  display: block;
+  margin-top: 300px;
+  /*border: 2px solid blue;*/
+}
+
+.individual-project {
+  float: left;
+  /*border: 2px solid red;*/
+  width: 33.33%;
+  height: 25%;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.project-img:hover { transform: scale(1.2); }
+
+#coding-projects { display: block; }
+
+.decisions {
+  max-width: 20vh;
+}
+
+.insession {
+  max-width: 30vh;
+}
+
+.insession:hover { transform: scale(1.1); }
+
+.potluck {
+  max-height: 95%;
+  max-width: 100%;
+  padding: 2px;
+}
+
+.potluck:hover { transform: scale(1.1); }
