@@ -46,32 +46,10 @@ a {
   font-size: 4.0vh;
   text-align: center;
 }
-/*
-
-.inspire {
-  min-height: 100vh;
-  max-width: 80vh;
-  position: absolute;
-  left: 20%;
-}
-
-.inspire h3{
-  text-align: center;
-}
-
-.inspire li {
-  font-size: 1.5em;
-}
-
-.inspire a {
-  text-decoration: none;
-}
-*/
 
 #design-projects {
   display: block;
   margin-top: 200px;
-  /*border: 2px solid blue;*/
 }
 
 .individual-project {
@@ -81,7 +59,8 @@ a {
 }
 
 .write-up {
-  padding: 10%;
+  padding: 0 15px 0 10px;
+  font-size: 2.3vh;
 }
 
 .project-img {
@@ -107,7 +86,7 @@ a {
 .contribution {
   margin-left: 28%;
   max-width: 40vh;
-
+  font-size: 3vh;
 }
 .insession:hover { transform: scale(1.1); }
 
