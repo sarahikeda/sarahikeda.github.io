@@ -26,6 +26,7 @@ a {
   position: absolute;
   top: 8%;
   left: 70%;
+  bottom: 10%;
 }
 
 .navright li {
@@ -38,24 +39,27 @@ a {
   font-size: 4.0vh;
   position: absolute;
   left: 20%;
-  top: 25%;
-  padding-right: 60px;
+  padding-bottom: 10%;
 }
 
 #headline {
   font-size: 4.0vh;
   text-align: center;
+  position: relative;
 }
 
 #design-projects {
   display: block;
-  margin-top: 200px;
+  margin-top: 100px;
+  position: relative;
 }
 
 .individual-project {
   float: left;
   width: 50%;
-  height: 25%;
+  height: 60%;
+  font-size: 3vh;
+  padding: 40px;
 }
 
 .write-up {
@@ -71,6 +75,11 @@ a {
 
 .blood-type {
   width: 40%;
+}
+
+.email-img {
+  margin-top: 10px;
+  position: relative;
 }
 
 #coding-projects { display: block; }
