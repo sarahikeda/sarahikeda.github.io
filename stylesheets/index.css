@@ -92,6 +92,7 @@ a {
 }
 
 #fist-pump { color: #ff3dc4 }
+
 #halloween {
   max-height: 40vh;
   max-width: 40vh;
@@ -100,6 +101,29 @@ a {
   left: 20%;
 }
 
+.social-media {
+  position: relative;
+  margin-left: 50vh;
+  margin-bottom: 20vh;
+}
+
+.social-media li {
+  list-style-type: none;
+}
+
+.social-media-inspire {
+  position: relative;
+  margin-left: 36%;
+  margin-top: 100vh;
+}
+.social-media-inspire li{
+  list-style-type: none;
+}
+
+.media-icons {
+  max-height: 4vh;
+  max-width: 4vh;
+}
 .projects {
   min-height: 100vh;
   font-size: 15px;
