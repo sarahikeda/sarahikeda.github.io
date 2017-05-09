@@ -35,6 +35,8 @@ a {
   padding-left: 10px;
 }
 
+.line-break { border-top: 1px dotted #8c8b8b;}
+
 #arrow {
   max-width: 4vh;
 }
