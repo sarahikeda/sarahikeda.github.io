@@ -1,4 +1,5 @@
 * { box-sizing: border-box; }
+
 body {
   font-family: 'Open Sans Condensed', sans-serif !important;
 }
@@ -8,15 +9,14 @@ a {
 }
 
 .name, .name a {
-  font-size: 80px;
-  margin-top: 0px;
+  font-size: 40px;
   margin-left: 10px;
   float: left;
   text-decoration: none;
 }
 
 .break {
-  height: 150px;
+  height: 10px;
 }
 
 .navright {
@@ -58,7 +58,7 @@ a {
   float: left;
   width: 50%;
   height: 60%;
-  font-size: 3vh;
+  font-size: 1.3em;
   padding: 40px;
 }
 
