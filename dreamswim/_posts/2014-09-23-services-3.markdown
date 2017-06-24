@@ -1,8 +1,0 @@
----
-layout: default
-img: goggles.png
-category: Services
-title: Rent Equipment
-description: |
----
-  We deliver your swimming equipment right to you so you don't have to lug your bag around, heavy and soaked with water.
