@@ -1,8 +1,0 @@
----
-layout: default
-img: nightswim.jpg
-category: Services
-title: Discover new swimming experiences.
-description: |
----
-  Fancy a night dip in the pool? We will dim the lights and play a killer soundtrack for you to jump right in.

@@ -1,7 +1,0 @@
----
-layout: default
-img: pool.jpg
-category: Services
-title: Find the right places to swim for you.
-description: |
----
