@@ -75,11 +75,11 @@ a {
 }
 
 .inspire {
+  margin-top: 20px;
   min-height: 100vh;
-  max-width: 80vh;
   position: absolute;
-  left: 20%;
-  right: 20%;
+  left: 10%;
+  right: 10%;
 }
 
 .inspire h3{
