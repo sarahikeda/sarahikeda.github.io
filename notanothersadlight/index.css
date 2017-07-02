@@ -4,3 +4,7 @@ html, body {
   margin: 10%;
   padding: 0;
 }
+
+.portfolio-stream img{
+  width: 80%;
+}
