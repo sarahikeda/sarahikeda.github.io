@@ -52,7 +52,11 @@ a {
 }
 
 .social-media img {
-  width: 5%;
+  width: 2em;
+}
+
+.media-icons {
+  height: 1.8em;
 }
 
 @media only screen and (max-width: 600px) {
