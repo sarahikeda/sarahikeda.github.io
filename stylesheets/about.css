@@ -1,0 +1,169 @@
+a {
+  color: black !important;
+}
+
+.name, .name a {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
+}
+
+.break {
+  height: 150px;
+}
+
+.big-break {
+  min-height: 45vh;
+}
+.navright {
+  font-size: 20px;
+  float: right;
+  list-style-type: none;
+  position: relative;
+  margin: 50px 10px 0 0;
+}
+
+.navright li {
+  display: inline;
+  padding-left: 10px;
+}
+
+.line-break { border-top: 1px dotted #8c8b8b;}
+
+#arrow {
+  max-width: 4vh;
+}
+
+#contact {
+  padding-left: 20px;
+}
+
+@media all and (max-width: 500px) {
+  #contact {
+    padding-left: 10px;
+  }
+}
+
+.main-info {
+  margin-top: 100px;
+}
+
+.bio {
+  position: absolute;
+  top: 30%;
+  font-family: 'Open Sans Condensed', sans-serif !important;
+}
+
+#biopic {
+  margin: 10px 10px 0 0;
+  max-height: 30vh;
+  max-width: 22%;
+  float: left;
+  display: inline-block;
+}
+
+#biotext {
+  margin: 0 40px 0 20px;
+  max-width: 65%;
+  font-size: 22px;
+  display: inline-block;
+  float: right;
+}
+
+.inspire {
+  margin-top: 40px;
+  min-height: 100vh;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
+
+.inspire h3{
+  text-align: center;
+}
+
+.inspire li {
+  font-size: 1.5em;
+}
+
+.inspire a {
+  text-decoration: none;
+}
+
+#fist-pump { color: #ff3dc4 }
+
+#halloween {
+  max-height: 40vh;
+  max-width: 40vh;
+  border-radius: 80%;
+  position: absolute;
+  left: 20%;
+}
+
+.social-media {
+  position: relative;
+  margin-left: 50vh;
+  margin-bottom: 20vh;
+}
+
+.social-media li {
+  list-style-type: none;
+}
+
+.social-media-inspire {
+  position: relative;
+  margin-left: 36%;
+  margin-top: 100vh;
+}
+.social-media-inspire li{
+  list-style-type: none;
+}
+
+.media-icons {
+  max-height: 5vh;
+  max-width: 5vh;
+}
+.projects {
+  min-height: 100vh;
+  font-size: 15px;
+  padding: 40px;
+}
+
+.projects-left {
+  width: 50vh;
+  height: 40vh;
+  display: inline-block;
+  border: 2px black solid;
+  padding: 10px;
+}
+
+.projects-right {
+  width: 50vh;
+  height: 40vh;
+  display: inline-block;
+  border: 2px black solid;
+  padding: 10px;
+}
+
+.insession {
+  max-width: 30vh;
+}
+
+.insession:hover { transform: scale(1.1); }
+
+.potluck {
+  max-height: 95%;
+  max-width: 100%;
+  /*padding: 2px;*/
+}
+
+.potluck:hover { transform: scale(1.1); }
+
+.decisions {
+  max-height: 90%;
+  max-width: 100%;
+}
+
+.decisions:hover { transform: scale(1.1); }
