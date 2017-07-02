@@ -10,11 +10,13 @@ html, body {
   width: 70%;
 }
 
-#lamp-vid {
-  margin-left: 60px;
+#lamp-vid video {
+  margin: 20px 0 10px 60px;
+  width: 70%;
 }
 
 #creative50{
   margin: 20px 0 50px 0;
   width: 30%;
+  float: right;
 }
