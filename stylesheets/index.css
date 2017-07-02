@@ -51,12 +51,12 @@ a {
 .social-media {
   list-style-type: none;
   display: inline-block;
-  margin-top: 10vh;
-  margin-left: 40vh;
+  margin-top: 8vh;
+  margin-left: 55vh;
 }
 
 .social-media img {
-  width: 8%;
+  width: 5%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -73,7 +73,7 @@ a {
     font-size: 1.3em;
   }
   .social-media {
-    margin-top: 10vh;
+    margin-top: 5vh;
     margin-left: 20vh;
   }
 }
