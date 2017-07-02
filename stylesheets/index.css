@@ -32,9 +32,7 @@ a {
 }
 
 .bio {
-  position: absolute;
-  top: 20%;
-  padding-right: 100px;
+  margin-top: 20%;
 }
 
 #biopic {
@@ -50,17 +48,32 @@ a {
   float: right;
 }
 
+.social-media {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 10vh;
+  margin-left: 40vh;
+}
+
+.social-media img {
+  width: 8%;
+}
+
 @media only screen and (max-width: 600px) {
-    /* For mobile phones: */
-    .navright {
-      font-size: 1em;
-      margin: 30px 10px 0 0;
-    }
-    .name a {
-      font-size: 2em;
-    }
-    #biotext {
-      max-width: 60%;
-      font-size: 1.3em;
-    }
+  /* For mobile phones: */
+  .navright {
+    font-size: 1em;
+    margin: 30px 10px 0 0;
+  }
+  .name a {
+    font-size: 2em;
+  }
+  #biotext {
+    max-width: 60%;
+    font-size: 1.3em;
+  }
+  .social-media {
+    margin-top: 10vh;
+    margin-left: 20vh;
+  }
 }
