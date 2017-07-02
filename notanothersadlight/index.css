@@ -6,16 +6,16 @@ html, body {
 }
 
 .portfolio-stream img{
-  margin: 20px 0 0 60px;
+  margin: 20px 0 0 80px;
   width: 70%;
 }
 
 #lamp-vid video {
   margin: 20px 0 10px 60px;
-  width: 70%;
+  width: 80%;
 }
 
-#creative50{
+#creative50 {
   margin: 20px 0 50px 0;
   width: 30%;
   float: right;
