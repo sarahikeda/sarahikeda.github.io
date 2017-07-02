@@ -1,5 +1,9 @@
-a {
-  color: black !important;
+a:link {
+  color: black ;
+}
+
+a:visited {
+  color: #be35ff;
 }
 
 .name, .name a {
@@ -8,6 +12,7 @@ a {
   margin-left: 10px;
   float: left;
   text-decoration: none;
+  color: black;
 }
 
 .break {
@@ -17,8 +22,9 @@ a {
 .big-break {
   min-height: 45vh;
 }
+
 .navright {
-  font-size: 20px;
+  font-size: 15px;
   float: right;
   list-style-type: none;
   position: relative;
@@ -28,6 +34,10 @@ a {
 .navright li {
   display: inline;
   padding-left: 10px;
+}
+
+.navright li a {
+color: black;
 }
 
 .line-break { border-top: 1px dotted #8c8b8b;}
@@ -73,14 +83,14 @@ a {
 }
 
 .inspire {
-  margin-top: 40px;
+  margin-top: 10px;
   min-height: 100vh;
   position: absolute;
-  left: 10%;
-  right: 10%;
+  left: 5%;
+  right: 5%;
 }
 
-.inspire h3{
+.inspire h3 {
   text-align: center;
 }
 
@@ -95,11 +105,11 @@ a {
 #fist-pump { color: #ff3dc4 }
 
 #halloween {
-  max-height: 40vh;
+  max-height: 30vh;
   max-width: 40vh;
   border-radius: 80%;
   position: absolute;
-  left: 20%;
+  left: 30%;
 }
 
 .social-media {
