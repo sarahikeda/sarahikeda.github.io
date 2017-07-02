@@ -1,14 +1,10 @@
-body {
-  font-family: 'Open Sans Condensed', sans-serif !important;
-}
-
 a {
   color: black !important;
 }
 
 .name, .name a {
   font-size: 40px;
-  margin-top: 0px;
+  margin-top: 15px;
   margin-left: 10px;
   float: left;
   text-decoration: none;
