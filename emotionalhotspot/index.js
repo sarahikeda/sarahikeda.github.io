@@ -7,6 +7,10 @@ function initMap() {
     center: {lat: 53.479159, lng: -2.244105},
     zoom: 14,
     disableDefaultUI: true,
+    zoomControl: true,
+          zoomControlOptions: {
+              position: google.maps.ControlPosition.LEFT_CENTER
+          },
     styles: [
     {
         "featureType": "all",
