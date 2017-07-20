@@ -40,13 +40,13 @@ color: black;
   margin-top: 10px;
   min-height: 100vh;
   position: absolute;
-  left: 5%;
-  right: 5%;
+  left: 20%;
+  right: 20%;
 }
 
 .about-me p {
   color: black;
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
 .about-me h3 {
