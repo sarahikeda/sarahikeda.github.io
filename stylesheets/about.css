@@ -49,11 +49,12 @@ color: black;
   font-size: 1.4em;
 }
 
-.about-me h3 {
-  text-align: center;
-}
-
-#fist-pump { color: #ff3dc4 }
+#fist-pump {
+  margin: 50px 0 50px 50px;
+  color: #ff3dc4;
+  font-weight: bold;
+  font-size: 2em;
+ }
 
 #halloween {
   max-height: 30vh;
