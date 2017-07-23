@@ -37,7 +37,7 @@ a {
 
 video {
   width: 100%;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 video:hover { opacity: 0.3;}
@@ -66,8 +66,8 @@ video:hover { opacity: 0.3;}
 }
 
 .write-up {
-  padding: 0 15px 0 10px;
-  font-size: 2.3vh;
+  padding-right: 25px;
+  font-size: 2.2vh;
 }
 
 .project-img {
