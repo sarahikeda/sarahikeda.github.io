@@ -1,0 +1,50 @@
+body {
+  font-family: 'Space Mono', monospace;
+  background-color: #FFF72B;
+}
+
+a {
+  color: black;
+}
+
+.name a {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
+}
+
+.navright {
+  font-size: 1em;
+  float: right;
+  list-style-type: none;
+  position: relative;
+  margin: 30px 10px 0 0;
+}
+
+.navright li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.break {
+  height: 150px;
+}
+
+.intro {
+  font-size: 2.2vh;
+  margin: 5%;
+  display: inline-block;
+}
+
+#question {
+  font-size: 3.5vh;
+
+}
+
+.explanation {
+  padding-left: 40px;
+  width: 75%;
+  max-width: 70vh;
+}

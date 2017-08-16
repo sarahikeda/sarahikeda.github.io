@@ -1,24 +1,79 @@
-body {
-  background-color: rgba(0, 240, 196, 0.68)
+a {
+  color: black !important;
 }
 
-.statement {
-  padding: 1em 2em 0em 2em;
-  font-size: 4em;
-  font-family: "Amatic SC";
-  color: white;
+.name a {
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+  float: left;
+  text-decoration: none;
 }
 
-.emotion-dropdown {
-    font-family: "Amatic SC";
-    font-size: .5em;
+.navright {
+  font-size: 1em;
+  float: right;
+  list-style-type: none;
+  position: relative;
+  margin: 50px 10px 0 0;
 }
 
-.energy-dropdown {
-    font-family: "Amatic SC";
-    font-size: .5em;
+.navright li {
+  display: inline;
+  padding-left: 10px;
 }
 
-.activity {
-  font-weight: bold;
+#contact {
+  padding-left: 20px;
+}
+
+.bio {
+  margin-top: 20%;
+}
+
+#biopic {
+  max-height: 50vh;
+  max-width: 100%;
+}
+
+#biotext {
+  margin: 0 40px 40px 20px;
+  max-width: 65%;
+  font-size: 22px;
+  display: inline-block;
+  float: right;
+}
+
+.social-media {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 8vh;
+  margin-left: 55vh;
+}
+
+.social-media img {
+  width: 2em;
+}
+
+.media-icons {
+  height: 1.8em;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .navright {
+    font-size: 1em;
+    margin: 30px 10px 0 0;
+  }
+  .name a {
+    font-size: 2em;
+  }
+  #biotext {
+    max-width: 60%;
+    font-size: 1.3em;
+  }
+  .social-media {
+    margin-top: 5vh;
+    margin-left: 20vh;
+  }
 }
