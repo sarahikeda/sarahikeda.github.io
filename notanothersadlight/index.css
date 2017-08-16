@@ -34,21 +34,12 @@ a:visited {
 }
 
 .description, .press {
-<<<<<<< HEAD
   margin: 30px 260px 40px 200px;
 }
 
 .portfolio-stream img{
-  margin: 20px 0 0 350px;
   width: 35%;
-=======
   margin: 30px 40px 40px 40px;
-}
-
-.portfolio-stream img{
-  margin: 20px 0 0 250px;
-  width: 45%;
->>>>>>> a20ce9ff3f04f672bf47680c76a7ed00c760b401
 }
 
 #lamp-vid video {
@@ -58,10 +49,6 @@ a:visited {
 
 #creative50 {
   margin: 20px 40px 50px 0;
-<<<<<<< HEAD
-  width: 20%;
-=======
   width: 30%;
->>>>>>> a20ce9ff3f04f672bf47680c76a7ed00c760b401
   float: right;
 }
