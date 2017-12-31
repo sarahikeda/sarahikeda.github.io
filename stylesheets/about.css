@@ -1,5 +1,10 @@
 a:link {
-  color: black ;
+  text-decoration: underline;
+  color: #35a9b9;
+ }
+
+a:link:hover {
+  color: #be35ff;
 }
 
 a:visited {
