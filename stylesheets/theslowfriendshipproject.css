@@ -1,6 +1,6 @@
-body {
+* {
   font-family: 'Arvo';
-  margin: 0px;
+  font-size: 16px;
 }
 
 .intro {
@@ -13,23 +13,66 @@ a {
   color: white;
 }
 
+.name {
+  font-size: 70px;
+}
+
 .container {
-  font-size: 60px;
-  margin-left: 50px;
   padding: 10px;
 }
 
-.explanation {
-  height: 300px;
-  background-color: #26ebf7;
-  width: 48%;
-  display: inline-block;
-  padding: 50px;
-}
-
-.picture {
-  height: 300px;
+.about, .explanation {
+  height: 400;
   background-color: yellow;
   width: 50%;
   display: inline-block;
+}
+
+.about {float: left;}
+
+.about h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.about p {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.filler {
+  height: 400;
+  background-color: #26ebf7;
+  width: 50%;
+  display: inline-block;
+}
+
+.explanation {
+  float: right;
+}
+
+.secret {
+  height: 400px;
+  background-color: #26ebf7;
+  width: 50%;
+  display: inline-block;
+}
+
+.form-control {
+  font-size: 16px !important;
+  border: 1px solid black !important;
+  border-radius: 0px !important;
+  display: block;
+  padding: 0 20px;
+}
+
+.btn-primary {
+  float: right;
+  margin-top: 10px 20px 0 0;
+  background-color: #ffbb55 !important;
+  border: none !important;
+}
+.secret p {
+  margin: 40px 20px;
 }
