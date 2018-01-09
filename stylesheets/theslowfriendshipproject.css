@@ -4,7 +4,7 @@
 }
 
 .intro {
-  background-color: #ffbb56;
+  background-color: #ffc662c9;
   color: white;
   height: 300px;
 }
@@ -23,7 +23,7 @@ a {
 
 .about, .explanation {
   height: 400;
-  background-color: yellow;
+  background-color: white;
   width: 50%;
   display: inline-block;
 }
@@ -43,7 +43,7 @@ a {
 
 .filler {
   height: 400;
-  background-color: #26ebf7;
+  background-color: white;
   width: 50%;
   display: inline-block;
 }
@@ -54,17 +54,18 @@ a {
 
 .secret {
   height: 400px;
-  background-color: #26ebf7;
+  background-color: white;
   width: 50%;
   display: inline-block;
 }
 
 .form-control {
   font-size: 16px !important;
-  border: 1px solid black !important;
+  border: 4px solid black !important;
   border-radius: 0px !important;
   display: block;
   padding: 0 20px;
+  background-color: #10ffd8;
 }
 
 .btn-primary {
