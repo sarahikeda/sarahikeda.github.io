@@ -6,7 +6,7 @@
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
-	// config.uiColor = '#AADC6E';
+	config.uiColor = '#EBEFF5';
   config.toolbarGroups = [
     { name: 'document' },
     { name: 'clipboard',   groups: [ 'clipboard' ] },
@@ -20,11 +20,9 @@ CKEDITOR.editorConfig = function( config ) {
     { name: 'others' },
   ];
 
-
-  config.removePlugins = 'paragraph, forms, editing'
   // The default plugins included in the basic setup define some buttons that
   // are not needed in a basic editor. They are removed here.
-  config.removeButtons = 'Bold,Link,Unlink,NewPage,Preview,Image,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,ShowBlocks,PageBreak,Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Table,Iframe,Preview,Print';
+  config.removeButtons = 'Unlink,NewPage,Preview,Image,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,ShowBlocks,PageBreak,Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Table,Iframe,Preview,Print';
 
   config.autoGrow_minHeight = 100;
   config.autoGrow_maxHeight = 600;
