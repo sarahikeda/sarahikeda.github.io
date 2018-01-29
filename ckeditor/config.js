@@ -30,6 +30,8 @@ CKEDITOR.editorConfig = function( config ) {
   config.autoGrow_maxHeight = 600;
   config.autoGrow_bottomSpace = 50;
 
+  config.toolbarStartupExpanded = false;
+
   config.floatingtools = 'Basic';
   config.floatingtools_Basic =
   [
