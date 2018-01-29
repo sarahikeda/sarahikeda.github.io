@@ -22,6 +22,12 @@ CKEDITOR.editorConfig = function( config ) {
     { name: 'others' },
   ];
 
+  config.floatingtools = 'Basic';
+  config.floatingtools_Basic =
+  [
+  	['Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link']
+  ];
+
   // The default plugins included in the basic setup define some buttons that
   // are not needed in a basic editor. They are removed here.
   config.removeButtons = 'Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript';
