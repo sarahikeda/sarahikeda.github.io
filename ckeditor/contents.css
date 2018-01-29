@@ -51,6 +51,12 @@ blockquote
 	border-right-width: 5px;
 }
 
+.cke_top {
+	border: none;
+	padding: 0;
+	display: none;
+}
+
 a
 {
 	color: #0782C1;
