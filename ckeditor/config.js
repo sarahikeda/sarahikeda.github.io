@@ -9,11 +9,11 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.uiColor = '#AADC6E';
   config.toolbarGroups = [
     { name: 'document',	   groups: [ 'mode', 'document', 'doctools' ] },
-    { name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
-    { name: 'editing',     groups: [ 'find', 'selection', 'spellchecker' ] },
+    { name: 'clipboard',   groups: [ 'clipboard' ] },
+    { name: 'editing' },
     { name: 'forms' },
     { name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
-    { name: 'paragraph',   groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ] },
+    { name: 'paragraph'},
     { name: 'links' },
     { name: 'insert' },
     { name: 'styles' },
