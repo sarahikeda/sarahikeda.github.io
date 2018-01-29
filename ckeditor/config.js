@@ -28,10 +28,10 @@ CKEDITOR.editorConfig = function( config ) {
   	['Bold', 'Italic', 'NumberedList', 'BulletedList', 'Link', 'Blockquote', 'Anchor']
   ];
 
-  config.removePlugins = 'clipboard, paragraph, forms, editing'
+  config.removePlugins = 'paragraph, forms, editing'
   // The default plugins included in the basic setup define some buttons that
   // are not needed in a basic editor. They are removed here.
-  config.removeButtons = 'Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language';
+  config.removeButtons = 'Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language';
 
   config.autoGrow_minHeight = 200;
   config.autoGrow_maxHeight = 600;
