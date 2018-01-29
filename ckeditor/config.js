@@ -25,7 +25,7 @@ CKEDITOR.editorConfig = function( config ) {
   config.floatingtools = 'Basic';
   config.floatingtools_Basic =
   [
-  	['Bold', 'Italic', 'NumberedList', 'BulletedList', 'Link', 'Quote', 'Anchor']
+  	['Bold', 'Italic', 'NumberedList', 'BulletedList', 'Link', 'Blockquote', 'Anchor']
   ];
 
   // The default plugins included in the basic setup define some buttons that
