@@ -57,6 +57,7 @@ blockquote
 	display: none;
 }
 
+.cke_bottom { display: none; }
 a
 {
 	color: #0782C1;
