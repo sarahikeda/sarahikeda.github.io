@@ -31,7 +31,11 @@ CKEDITOR.editorConfig = function( config ) {
   config.removePlugins = 'clipboard, paragraph, forms, editing'
   // The default plugins included in the basic setup define some buttons that
   // are not needed in a basic editor. They are removed here.
-  config.removeButtons = 'Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source';
+  config.removeButtons = 'Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language';
+
+  config.autoGrow_minHeight = 200;
+  config.autoGrow_maxHeight = 600;
+  config.autoGrow_bottomSpace = 50;
 
   // Dialog windows are also simplified.
   config.removeDialogTabs = 'link:advanced';
