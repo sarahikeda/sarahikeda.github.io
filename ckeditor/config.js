@@ -6,7 +6,7 @@
 CKEDITOR.editorConfig = function( config ) {
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
-	config.uiColor = '#EBEFF5';
+	// config.uiColor = '#AADC6E';
   config.toolbarGroups = [
     { name: 'document' },
     { name: 'clipboard',   groups: [ 'clipboard' ] },
@@ -31,16 +31,12 @@ CKEDITOR.editorConfig = function( config ) {
   config.autoGrow_bottomSpace = 50;
 
   config.toolbarStartupExpanded = false;
-  // floating toolbar
+
   config.floatingtools = 'Basic';
   config.floatingtools_Basic =
   [
     ['Bold', 'Italic', 'NumberedList', 'BulletedList', 'Link', 'Blockquote', 'Anchor']
   ];
-
-  // balloon toolbar
-
-
   // Dialog windows are also simplified.
   config.removeDialogTabs = 'link:advanced';
 };
