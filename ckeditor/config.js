@@ -12,7 +12,7 @@ CKEDITOR.editorConfig = function( config ) {
     { name: 'clipboard',   groups: [ 'clipboard' ] },
     { name: 'editing' },
     { name: 'forms' },
-    { name: 'basicstyles'}, groups: [ 'basicstyles', 'cleanup' ] },
+    { name: 'basicstyles'}, groups: [ 'basicstyles' ] },
     { name: 'paragraph'},
     { name: 'links' },
     { name: 'insert' },
