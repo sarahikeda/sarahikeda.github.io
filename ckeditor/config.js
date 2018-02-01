@@ -16,7 +16,6 @@ CKEDITOR.editorConfig = function( config ) {
     { name: 'paragraph'},
     { name: 'links' },
     { name: 'insert' },
-    { name: 'tools' },
     { name: 'others' },
   ];
 
