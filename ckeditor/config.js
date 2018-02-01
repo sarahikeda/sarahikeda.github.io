@@ -12,10 +12,11 @@ CKEDITOR.editorConfig = function( config ) {
     { name: 'clipboard',   groups: [ 'clipboard' ] },
     { name: 'editing' },
     { name: 'forms' },
-    { name: 'basicstyles'}, groups: [ 'basicstyles' ] },
+    { name: 'basicstyles'},
     { name: 'paragraph'},
     { name: 'links' },
     { name: 'insert' },
+    { name: 'tools' },
     { name: 'others' },
   ];
 
@@ -23,7 +24,7 @@ CKEDITOR.editorConfig = function( config ) {
   config.removePlugins = 'paragraph, forms, editing'
   // The default plugins included in the basic setup define some buttons that
   // are not needed in a basic editor. They are removed here.
-  config.removeButtons = 'Unlink,NewPage,Preview,PasteText,PasteFromWord,Bold,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak,Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Table,Iframe,Preview,Print';
+  config.removeButtons = 'Unlink,Link,NewPage,Preview,PasteText,PasteFromWord,Bold,Italic,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak,Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Table,Iframe,Preview,Print';
 
   config.autoGrow_minHeight = 100;
   config.autoGrow_maxHeight = 600;
