@@ -20,6 +20,7 @@ CKEDITOR.editorConfig = function( config ) {
     { name: 'others' },
   ];
 
+  config.extraPlugins = 'pastefromexcel';
 
   config.removePlugins = 'paragraph, forms, editing'
   // The default plugins included in the basic setup define some buttons that
