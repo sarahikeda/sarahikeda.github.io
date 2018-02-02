@@ -10,5 +10,6 @@ CKEDITOR.editorConfig = function( config ) {
   //
   //
 
-  config.removeButtons = 'Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
+  // Table,Iframe,Preview,Print
+  config.removeButtons = 'TextField,Radio,Checkbox,Textarea,Select,Button,Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
 };
