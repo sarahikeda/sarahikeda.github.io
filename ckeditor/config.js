@@ -8,6 +8,7 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
   //
+  //
 
-  config.removeButtons = 'Table,Iframe,Preview,Print,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
+  config.removeButtons = 'Maximize,Clipboard, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
 };
