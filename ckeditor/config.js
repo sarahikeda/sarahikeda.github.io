@@ -11,5 +11,5 @@ CKEDITOR.editorConfig = function( config ) {
   //
 
   // Table,Iframe,Preview,Print
-  config.removeButtons = 'Templates,SelectAll,Form,HiddenField,Find,Replace,TextField,Radio,Checkbox,Textarea,Select,Button,Maximize,Clipboard,RemoveFormat,CreateDiv,JustifyLeft,JustifyCenter,JustifyRight,JustifyBlock, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
+  config.removeButtons = 'About,Templates,SelectAll,Form,HiddenField,Find,Replace,TextField,Radio,Checkbox,Textarea,Select,Button,Maximize,Clipboard,RemoveFormat,CreateDiv,JustifyLeft,JustifyCenter,JustifyRight,JustifyBlock, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Source,Language,Print,Smiley,Flash,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
 };
