@@ -12,4 +12,9 @@ CKEDITOR.editorConfig = function( config ) {
 
   // Table,Iframe,Preview,Print
   config.removeButtons = 'Source,Outdent,Indent,RemoveFormat,NumberedList,About,ImageButton,Scayt,BidiLtr,BidiRtl,Templates,SelectAll,Form,HiddenField,Find,Replace,TextField,Radio,Checkbox,Textarea,Select,Button,Maximize,Clipboard,RemoveFormat,CreateDiv,JustifyLeft,JustifyCenter,JustifyRight,JustifyBlock, Undo,Cut,Copy,Paste,Undo,Redo,Underline,Strike,Subscript,Superscript,Language,Print,Smiley,Flash,Unlink,NewPage,Preview,PasteText,PasteFromWord,HorizontalRule,SpecialChar,TextColor,BGColor,PageBreak';
+
+  config.extraPlugins = 'autogrow';
+  config.autoGrow_minHeight = 200;
+  config.autoGrow_maxHeight = 600;
+  config.autoGrow_bottomSpace = 50;
 };
