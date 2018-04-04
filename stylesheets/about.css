@@ -13,11 +13,9 @@ a:visited {
 
 .name, .name a {
   font-size: 40px;
-  margin-top: 15px;
-  margin-left: 10px;
-  float: left;
   text-decoration: none;
   color: black;
+  margin-top: 40px;
 }
 
 .break {
@@ -25,70 +23,48 @@ a:visited {
 }
 
 .navright {
+  margin-top: 50px;
   font-size: 15px;
-  float: right;
   list-style-type: none;
-  position: relative;
-  margin: 50px 10px 0 0;
+  text-align: right;
 }
 
 .navright li {
   display: inline;
-  padding-left: 10px;
 }
 
 .navright li a {
 color: black;
 }
 
-.about-me {
-  margin-top: 10px;
-  min-height: 100vh;
-  position: absolute;
-  left: 20%;
-  right: 20%;
-}
-
 .about-me p {
   color: black;
   font-size: 1.4em;
+  margin: 20px 80px;
 }
 
 #fist-pump {
-  margin: 50px 0 50px 50px;
+  margin: 50px 0 20px 50px;
   color: #ff3dc4;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3em;
  }
 
 #halloween {
-  max-height: 30vh;
-  max-width: 40vh;
+  max-width: 180px;
   border-radius: 80%;
-  position: absolute;
-  left: 30%;
+  margin-left: 30%;
+  margin-bottom: 50px;
 }
 
 .social-media {
-  position: relative;
-  margin-left: 50vh;
-  margin-bottom: 20vh;
+  margin-top: 20px;
 }
 
 .social-media li {
   list-style-type: none;
 }
 
-.social-media-inspire {
-  position: relative;
-  margin-left: 36%;
-  margin-top: 100vh;
-}
-.social-media-inspire li{
-  list-style-type: none;
-}
-
 .media-icons {
-  max-height: 5vh;
-  max-width: 5vh;
+  max-height: 20px;
 }
