@@ -3,46 +3,61 @@
      <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="stylesheets/portfolio.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <title>SARAH ING</title>
   </head>
   <body>
       <div>
-        <p class="name"><a href="https://sarahikeda.github.io"> SARAH ING</a></p>
+        <p class="container name"><a href="https://sarahikeda.github.io"> SARAH ING</a></p>
         <ul class="navright">
-          <li id="about"><a href="https://sarahikeda.github.io/about">About</a></li>
+          <li id="about"><a href="https://sarahikeda.github.io">Home</a></li>
           <li><a href="SIResume.pdf" target="_blank">Resume</a></li>
-          <!-- <li id="about"><a href="https://sarahikeda.github.io/strangers">Thesis</a> -->
+          <li id="about"><a href="https://sarahikeda.github.io/strangers">Thesis</a>
         </ul>
         <div class="container">
       </div>
       <div class="main-info">
         <div class="break"></div>
-        <div id="design-projects">
+        <div class="container design-projects">
           <p id="headline">CODING PROJECTS</p>
-          <div class="individual-project">
-            <a href="https://sarahikeda.github.io/notanothersadlight/"><video width="180" height="250" autoplay loop>
-            <source src="notanothersadlight/assets/lamp.mp4" type="video/mp4">
-          </video></a><br>
-          <div class="write-up">
-            <a href="https://sarahikeda.github.io/notanothersadlight/"><b>Not Another SAD Light</b></a>
-            was commissioned by <a href="https://www.mif.co.uk">MIF</a>, to show the stories that are left behind. I performed sentiment analysis on tweets and used the Philips Hue API to change the light in coordination with the emotion. <br>
-            <a href="https://github.com/sarahikeda/whatsleftbehind"><b>Source Code</b></a><br>
+          <div class="row">
+            <div class="col-sm-6 individual-project">
+              <a href="https://sarahikeda.github.io/notanothersadlight/"><video height="160" autoplay loop>
+              <source src="notanothersadlight/assets/lamp.mp4" type="video/mp4">
+            </video></a><br>
+            <div class="write-up">
+              <a href="https://sarahikeda.github.io/notanothersadlight/"><b>Not Another SAD Light</b></a>
+              was commissioned by <a href="https://www.mif.co.uk">MIF</a>, to show the stories that are left behind. I performed sentiment analysis on tweets and used the Philips Hue API to change the light in coordination with the emotion. <br>
+              <a href="https://github.com/sarahikeda/whatsleftbehind"><b>Source Code</b></a><br>
+              </div>
+            </div>
+            <div class="col-sm-6 individual-project">
+              <a href="https://sarahikeda.github.io/decisionsdecisions/"><img class="project-img" src="images/decisions.png" alt="Picture of Decisions project"></a>
+              <div class="write-up">
+                <a href="https://sarahikeda.github.io/decisionsdecisions/"><b>DecisionsDecisions </b></a>
+                Having trouble figuring out what to do today? Channel the powers of jQuery to make a decision based on your mood and energy level.<br>
+                <a href="https://github.com/sarahikeda/decisionsdecisions"><b>Source Code</b></a><br>
+              </div>
             </div>
           </div>
-          <div class="individual-project">
-            <a href="https://sarahikeda.github.io/decisionsdecisions/"><img class="project-img" src="images/decisions.png" alt="Picture of Decisions project"></a>
-            <div class="write-up">
-              <a href="https://sarahikeda.github.io/decisionsdecisions/"><b>DecisionsDecisions </b></a>
-              Having trouble figuring out what to do today? Channel the powers of jQuery to make a decision based on your mood and energy level.<br>
-              <a href="https://github.com/sarahikeda/decisionsdecisions"><b>Source Code</b></a><br>
+          <div class="row">
+            <div class= "col-sm-6 individual-project">
+              <a href="https://github.com/sarahikeda/bringchips"><img class="project-img" src="images/potluck.png" alt="Picture of Potluck Project"></a>
+              <div class="write-up">
+                <a href="https://github.com/sarahikeda/bringchips"><b>Bring Chips</b></a>
+                is a Rails application for those hosting or attending a potluck. Keep track of who's bringing what and avoid starvation.
+                <br><a href="https://github.com/sarahikeda/bringchips"><b>Source Code</b></a><br>
+              </div>
             </div>
           </div>
-          <div class= "individual-project">
-            <a href="https://github.com/sarahikeda/bringchips"><img class="project-img" src="images/potluck.png" alt="Picture of Potluck Project"></a>
-            <div class="write-up">
-              <a href="https://github.com/sarahikeda/bringchips"><b>Bring Chips</b></a>
-              is a Rails application for those hosting or attending a potluck. Keep track of who's bringing what and avoid starvation.
-              <br><a href="https://github.com/sarahikeda/bringchips"><b>Source Code</b></a><br>
+          <p id="headline">& MORE PROJECTS</p>
+          <div class="row">
+            <div class= "col-sm-6 individual-project">
+              <a href="theslowfriendshipproject.splashthat.com"><img class="project-img" src="images/tsfp.png" alt="Picture of Potluck Project"></a>
+              <div class="write-up">
+                <a href="theslowfriendshipproject.splashthat.com"><b>The Slow Friendship Project</b></a>
+                is about taking a breather -- slowing down to have conversations with people we might not normally meet in our daily rush.
+              </div>
             </div>
           </div>
           <!-- <div class= "individual-project"> -->
@@ -52,14 +67,7 @@
               <!-- is a mobile application designed to connect online learners to in-person study groups. Students can also chat with their peers and seek help in the forum. Technologies utilized: Ruby on Rails, Postgres, Elastic Search, Faye, Mapbox and CoffeeScript. -->
             <!-- </p> -->
           <!-- </div> -->
-          <div class= "individual-project">
-            <a href="https://github.com/sarahikeda/farmersmarket"><img class="project-img" src="images/market.jpg" alt="Picture of Market Project"></a>
-            <div class="write-up">
-              <a href="https://github.com/sarahikeda/farmersmarket"><b>farmersmarket</b></a>
-              is a short exercise in Ruby to create a checkout system for market vendors. Testing with RSpec.
-              <a href="https://github.com/sarahikeda/farmersmarket"><b>Source Code</b></a><br>
-            </div>
-          </div>
+
           <div class="break"></div>
         </div>
       </div>
