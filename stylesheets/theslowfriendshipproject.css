@@ -1,0 +1,79 @@
+* {
+  font-family: 'Arvo';
+  font-size: 16px;
+}
+
+.intro {
+  background-color: #ffc662c9;
+  color: white;
+  height: 300px;
+}
+
+a {
+  color: white;
+}
+
+.name {
+  font-size: 70px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.about, .explanation {
+  height: 400;
+  background-color: white;
+  width: 50%;
+  display: inline-block;
+}
+
+.about {float: left;}
+
+.about h4 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.about p {
+  font-size: 20px;
+  margin: 0 20px;
+}
+
+.filler {
+  height: 400;
+  background-color: white;
+  width: 50%;
+  display: inline-block;
+}
+
+.explanation {
+  float: right;
+}
+
+.secret {
+  height: 400px;
+  background-color: white;
+  width: 50%;
+  display: inline-block;
+}
+
+.form-control {
+  font-size: 16px !important;
+  border: 4px solid black !important;
+  border-radius: 0px !important;
+  display: block;
+  padding: 0 20px;
+  background-color: #10ffd8;
+}
+
+.btn-primary {
+  float: right;
+  margin-top: 10px 20px 0 0;
+  background-color: #ffbb55 !important;
+  border: none !important;
+}
+.secret p {
+  margin: 40px 20px;
+}
