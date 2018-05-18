@@ -35,13 +35,6 @@ a {
   padding-left: 10px;
 }
 
-video {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-video:hover { opacity: 0.3;}
-
 .main-info {
   margin-top: 100px;
   font-size: .8em;
@@ -62,16 +55,16 @@ video:hover { opacity: 0.3;}
   width: 50%;
   height: 60%;
   font-size: 1.3em;
-  padding: 15px;
+  padding: 0px 10px 0 50px;
 }
 
 .write-up {
-  padding-right: 25px;
-  font-size: 2.2vh;
+  font-size: 1em;
+  width: 70%;
 }
 
 .project-img {
-  width: 90%;
+  width: 70%;
   padding-bottom: 10px;
 }
 
