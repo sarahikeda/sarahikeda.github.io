@@ -95,19 +95,19 @@ header.masthead .device-container .screen img {
 section.download {
   position: relative;
   padding: 150px 0;
-  color: #ffd0d0;
+  color: white;
 }
 
 section.download h2 {
   font-size: 50px;
   margin-top: 0;
-  color: #ffd0d0;
+  color: white;
 }
 
 @media (min-width: 768px) {
   section.download h2 {
     font-size: 70px;
-    color: #ffd0d0;
+    color: white;
   }
 }
 
