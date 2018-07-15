@@ -36,7 +36,7 @@ a {
 }
 
 .main-info {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: .8em;
 }
 
@@ -44,17 +44,17 @@ a {
   font-size: 4.0vh;
   text-align: center;
 }
-#design-projects {
 
+#design-projects {
   display: block;
 }
 
 .individual-project {
   float: left;
   width: 50%;
-  height: 50%;
+  height: 45%;
   font-size: 1.3em;
-  padding: 0 5px 0 100px;
+  padding: 0 5px 0 150px;
 }
 
 .write-up {
@@ -71,4 +71,5 @@ a {
 
 .section-title {
   text-align: center;
+  margin: 0 0 20px 0;
 }
