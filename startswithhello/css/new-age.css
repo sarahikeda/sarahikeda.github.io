@@ -310,3 +310,7 @@ li {
   list-style-position: outside;
   font-size: 18px;
 }
+
+.description {
+  padding: 0 120px;
+}
