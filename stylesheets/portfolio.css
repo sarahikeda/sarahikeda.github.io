@@ -26,13 +26,25 @@ a {
   padding: 0 40px;
 }
 
+.write-up {
+  width: 350px;
+}
+
+@media only screen and (max-width: 860px) {
+  .design-projects {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+  }
+
+  .write-up {
+    max-width: 400px;
+  }
+}
+
 .individual-project {
   padding-bottom: 50px;
 }
 
-.write-up {
-  width: 350px;
-}
 
 .project-img {
   max-width: 350px;
