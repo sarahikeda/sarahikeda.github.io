@@ -1,0 +1,34 @@
+
+body {
+  background-color: #061427;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+
+.design-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 100px;
+  text-align: center;
+  column-gap: 50px;
+}
+
+.individual-writeup {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.person-bio {
+  width: 100%;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 860px) {
+  .design-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .individual-writeup {
+    padding-bottom: 50px;
+  }
+}
