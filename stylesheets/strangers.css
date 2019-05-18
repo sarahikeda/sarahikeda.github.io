@@ -1,50 +1,38 @@
-body {
-  font-family: 'Space Mono', monospace;
-  background-color: #FFF72B;
+main {
+	font-family: Helvetica, sans-serif;
+	color: #cf42a3;
+	padding: 2em;
+	width: 75%;
+	min-height: 100vh;
+	margin: 0 auto 0 auto;
 }
 
-a {
-  color: black;
+video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -9999;
+	transform: translateX(-50%) translateY(-50%);
+	background: #fff;
 }
 
-.name a {
-  font-size: 40px;
-  margin-top: 15px;
-  margin-left: 10px;
-  float: left;
-  text-decoration: none;
-}
+.overlay span{
+  	position: relative;
+  	opacity: 0;
+  	top: 1em;
+  	animation: animateOverlay 1s ease-in-out forwards;
+  }
 
-.navright {
-  font-size: 1em;
-  float: right;
-  list-style-type: none;
-  position: relative;
-  margin: 30px 10px 0 0;
-}
+.overlay span:nth-child(4n) { animation-delay: 0s; }
+.overlay span:nth-child(4n+1) { animation-delay: 1s; }
+.overlay span:nth-child(4n+3) { animation-delay: 2s; }
+.overlay span:nth-child(4n+2) { animation-delay: 3s; }
 
-.navright li {
-  display: inline-block;
-  padding-left: 10px;
-}
-
-.break {
-  height: 150px;
-}
-
-.intro {
-  font-size: 2.2vh;
-  margin: 5%;
-  display: inline-block;
-}
-
-#question {
-  font-size: 3.5vh;
-
-}
-
-.explanation {
-  padding-left: 40px;
-  width: 75%;
-  max-width: 70vh;
-}
+@keyframes animateOverlay {
+  to {
+    opacity: 1;
+    top: 0;
+    }
+  }
