@@ -1,7 +1,20 @@
-div#hero{
-  background: #b5b52f;
+div#about{
+  font-family: "Roboto";
+  line-height: 170%;
+  background: white;
   padding: 150px 0 80px 0;
   position: relative;
+}
+
+div#site-header {
+  padding: 50px 0;
+}
+
+.headline {
+  font-weight: 300;
+  font-size: 76px;
+  width: 80%;
+  line-height: 1.1;
 }
 
 .regular-container {
@@ -16,12 +29,12 @@ div#hero{
   flex: 0 1 auto;
 
 }
-div#hero .regular-container {
+div#about .regular-container {
   z-index: 2;
   width: 90%;
 }
 
-div#hero::after {
+div#about::after {
   content: "";
   height: 100%;
   width: 30%;
@@ -43,5 +56,5 @@ div#hero::after {
 }
 
 .text-white {
-  color: #ffffff;
+  color: black;
 }
