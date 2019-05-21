@@ -47,12 +47,8 @@ div#about::after {
   opacity: 0;
 }
 
-.col-md-6 {
-  max-width: 50%;
-}
-
 .fluid-img {
-  width: 100%;
+  width: 90%;
 }
 
 .text-white {
