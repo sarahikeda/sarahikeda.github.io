@@ -1,16 +1,14 @@
 window.addEventListener("load", function(){
-	var nodes = document.querySelectorAll(".name");
-	for(var i=0; i<nodes.length; i++){
+  var nodes = document.querySelectorAll(".name")
+  for (var i = 0; i < nodes.length; i++) {
     var words = nodes[i].innerText
     var html = ''
-    debugger;
-    for(var i2=0; i2<words.length; i2++){
-      if(words[i2] == " ")html +=
-      words[i2];
-      else html +=
-      "<span>"+words[i2]+"</span>"
+    for (var i2 = 0; i2 < words.length; i2++) {
+      if (words[i2] === ' ') {
+        html += words[i2]
+      } else html +=
+      '<span>' + words[i2] + '</span>'
     }
-    nodes[i].innerHTML = html;
-
-	}
+    nodes[i].innerHTML = html
+  }
 });

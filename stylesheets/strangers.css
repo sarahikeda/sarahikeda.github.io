@@ -1,7 +1,4 @@
 body {
-	font-family: Helvetica, sans-serif;
-	color: black;
-	padding: 2em;
 	width: 75%;
 	margin: 0 auto 0 auto;
 }
@@ -12,6 +9,7 @@ body {
 }
 
 .description {
+	margin: 0 auto;
 	width: 70%;
 	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
@@ -25,9 +23,7 @@ body {
   }
 
 .name span:nth-child(4n) { animation-delay: 0s; }
-.name span:nth-child(4n+1) { animation-delay: 1s; }
-.name span:nth-child(4n+3) { animation-delay: 2s; }
-.name span:nth-child(4n+2) { animation-delay: 3s; }
+.name span:nth-child(4n+3) { animation-delay: 1s; }
 
 @keyframes animateOverlay {
   to {
