@@ -1,16 +1,16 @@
 body {
 	width: 75%;
-	margin: 0 auto 0 auto;
 }
 
 .name {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 4em;
+	padding-left: 10px;
 }
 
 .description {
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
 }
