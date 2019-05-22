@@ -1,5 +1,5 @@
 window.addEventListener("load", function(){
-	var nodes = document.querySelectorAll(".overlay");
+	var nodes = document.querySelectorAll(".name");
 	for(var i=0; i<nodes.length; i++){
     var words = nodes[i].innerText
     var html = ''
