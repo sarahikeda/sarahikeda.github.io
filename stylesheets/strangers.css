@@ -22,6 +22,23 @@ body {
   	animation: animateOverlay 1s ease-in-out forwards;
 }
 
+.name span:nth-child(1n) {
+	color: #085f63;
+}
+.name span:nth-child(2n) {
+	color: #ff5959;
+}
+
+.name span:nth-child(5n) {
+ 	color: #facf5a;
+}
+.name span:nth-child(6n) {
+ 	color: #49beb7;
+}
+
+
+
+
 .name span:nth-child(4n) { animation-delay: 0s; }
 .name span:nth-child(4n+1) { animation-delay: 1s; }
 .name span:nth-child(4n+3) { animation-delay: 2s; }
