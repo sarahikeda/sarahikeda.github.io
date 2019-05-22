@@ -4,8 +4,8 @@ body {
 }
 
 .name {
-	font-size: 8em;
 	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 4em;
 }
 
 .description {
@@ -15,15 +15,20 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.name span{
+.name span {
   	position: relative;
   	opacity: 0;
   	top: 1em;
   	animation: animateOverlay 1s ease-in-out forwards;
-  }
+}
 
-.name span:nth-child(4n) { animation-delay: 0s; }
 .name span:nth-child(4n+3) { animation-delay: 1s; }
+
+@media only screen and (min-width: 768px) {
+	.name {
+		font-size: 8em;
+ 	}
+}
 
 @keyframes animateOverlay {
   to {

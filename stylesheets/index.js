@@ -11,4 +11,4 @@ window.addEventListener("load", function(){
     }
     nodes[i].innerHTML = html
   }
-});
+})
