@@ -1,10 +1,14 @@
-main {
+body {
 	font-family: Helvetica, sans-serif;
-	color: #cf42a3;
+	color: black;
 	padding: 2em;
 	width: 75%;
 	min-height: 100vh;
 	margin: 0 auto 0 auto;
+}
+
+.overlay {
+	font-size: 8em;
 }
 
 video {
