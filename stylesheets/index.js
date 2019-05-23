@@ -6,7 +6,7 @@ window.addEventListener("load", function(){
     for (var i2 = 0; i2 < words.length; i2++) {
       if (words[i2] === ' ') {
         html += words[i2]
-      } else html +=
+      } else  html +=
       '<span>' + words[i2] + '</span>'
     }
     nodes[i].innerHTML = html

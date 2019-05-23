@@ -1,5 +1,8 @@
 body {
 	width: 75%;
+	padding: 0;
+	margin: 0;
+
 }
 
 .name {
@@ -26,28 +29,25 @@ body {
 	color: #ff5959;
 }
 .name span:nth-child(2n) {
-	color: #085f63;
+	color: #facf5a;
 }
 
 .name span:nth-child(5n) {
-	color: #facf5a;
+	color: #085f63;
 }
 .name span:nth-child(6n) {
  	color: #49beb7;
 }
 
-.name span:nth-child(3n) { animation-delay: 0.3s; }
-.name span:nth-child(9n) { animation-delay: .1s; }
-.name span:nth-child(10n) { animation-delay: .75s; }
+.name span:nth-child(14) { animation-delay: 0s; }
 
-.name span:nth-child(1) {
-	animation-delay: 1s;
-}
+.name span:nth-child(3n) { animation-delay: 2s; }
 
-.name span:nth-child(11n) {
-	color: #085f63;
-	animation-delay: 1.2s;
-}
+.name span:nth-child(6) { animation-delay: .8s; }
+.name span:nth-child(4) { animation-delay: 1.2s; }
+
+.name span:nth-child(5n) { animation-delay: .5s; }
+
 
 @media only screen and (min-width: 768px) {
 	.name {
