@@ -18,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.featured-work-link {
+.section {
 	margin-top: 100px;
 	text-align: center;
 	font-size: 1.5em;
@@ -45,8 +45,28 @@ body {
 	font-size: 1em;
 }
 
+.second-work .project-img {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.team {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 50px 50px;
+	text-align: center;
+}
+
+.team .person-bio {
+	width: 60%;
+}
+
+.team .individual-writeup {
+	margin-bottom: 50px;
+}
+
 @media only screen and (min-width: 768px) {
-	.featured-work-link { margin-top: 150px; }
+	.section { margin-top: 150px; }
 	.writeup {
 		font-size: 1.2em;
 	}
@@ -59,9 +79,18 @@ body {
 	.second-work .project-img {
 		margin-top: 150px;
 	}
-}
 
-.second-work .project-img {
-	margin-top: 50px;
-	width: 100%;
+	.team {
+		margin: 300px 50px 20px 50px;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 100px;
+	}
+
+	.team .person-bio {
+		width: 80%;
+	}
+
+	.team .individual-writeup {
+		text-align: center;
+	}
 }
