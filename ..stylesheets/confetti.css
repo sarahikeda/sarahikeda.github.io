@@ -1,0 +1,116 @@
+.icon {
+  font-size: 34px;
+  font-weight: bold;
+  letter-spacing: 34px;
+  position: relative; }
+
+.confetti-piece {
+  position: absolute;
+  width: 8px;
+  height: 16px;
+  background: #ffd300;
+  top: 0;
+  opacity: 0; }
+  .confetti-piece:nth-child(1) {
+    left: 7%;
+    transform: rotate(-70deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 195ms;
+    animation-duration: 1103ms; }
+  .confetti-piece:nth-child(2) {
+    left: 14%;
+    transform: rotate(-34deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 325ms;
+    animation-duration: 903ms; }
+  .confetti-piece:nth-child(3) {
+    left: 21%;
+    transform: rotate(-36deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 250ms;
+    animation-duration: 719ms; }
+  .confetti-piece:nth-child(4) {
+    left: 28%;
+    transform: rotate(-35deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 213ms;
+    animation-duration: 1088ms; }
+  .confetti-piece:nth-child(5) {
+    left: 35%;
+    transform: rotate(-18deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 40ms;
+    animation-duration: 700ms; }
+  .confetti-piece:nth-child(6) {
+    left: 42%;
+    transform: rotate(65deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 299ms;
+    animation-duration: 1172ms; }
+  .confetti-piece:nth-child(7) {
+    left: 49%;
+    transform: rotate(56deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 254ms;
+    animation-duration: 1050ms; }
+  .confetti-piece:nth-child(8) {
+    left: 56%;
+    transform: rotate(68deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 178ms;
+    animation-duration: 888ms; }
+  .confetti-piece:nth-child(9) {
+    left: 63%;
+    transform: rotate(-60deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 460ms;
+    animation-duration: 1006ms; }
+  .confetti-piece:nth-child(10) {
+    left: 70%;
+    transform: rotate(71deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 348ms;
+    animation-duration: 894ms; }
+  .confetti-piece:nth-child(11) {
+    left: 77%;
+    transform: rotate(31deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 271ms;
+    animation-duration: 707ms; }
+  .confetti-piece:nth-child(12) {
+    left: 84%;
+    transform: rotate(24deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 97ms;
+    animation-duration: 1137ms; }
+  .confetti-piece:nth-child(13) {
+    left: 91%;
+    transform: rotate(71deg);
+    animation: makeItRain 1000ms infinite ease-out;
+    animation-delay: 257ms;
+    animation-duration: 847ms; }
+  .confetti-piece:nth-child(odd) {
+    background: #17d3ff; }
+  .confetti-piece:nth-child(even) {
+    z-index: 1; }
+  .confetti-piece:nth-child(4n) {
+    width: 5px;
+    height: 12px;
+    animation-duration: 2000ms; }
+  .confetti-piece:nth-child(3n) {
+    width: 3px;
+    height: 10px;
+    animation-duration: 2500ms;
+    animation-delay: 1000ms; }
+  .confetti-piece:nth-child(4n-7) {
+    background: #ff4e91; }
+
+@keyframes makeItRain {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  to {
+    transform: translateY(200px); } }
+
+/*# sourceMappingURL=confetti.css.map */
