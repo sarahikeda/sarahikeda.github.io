@@ -94,3 +94,16 @@ body {
 		text-align: center;
 	}
 }
+
+.email {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.email a {
+	color: black;
+}
+
+.email a:hover {
+	color: pink;
+}
