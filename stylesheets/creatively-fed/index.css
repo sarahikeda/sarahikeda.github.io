@@ -5,7 +5,8 @@ body {
 }
 
 .name {
-	width: 75%;
+	margin-top: 50px;
+	width: 85%;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 4em;
   padding-left: 10px;
@@ -28,7 +29,7 @@ body {
   display: grid;
   column-gap: 50px;
 	grid-template-columns: 1fr;
-	margin-top: 300px;
+	margin-top: 400px;
 }
 
 .project-category:nth-child(1) {
