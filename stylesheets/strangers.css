@@ -36,12 +36,17 @@ body {
  	color: #49beb7;
 }
 
-.name span:nth-child(9n) { animation-delay: 1s; }
-.name span:nth-child(10n) { animation-delay: 1s; }
+.name span:nth-child(3n) { animation-delay: 0.3s; }
+.name span:nth-child(9n) { animation-delay: .1s; }
+.name span:nth-child(10n) { animation-delay: .75s; }
+
+.name span:nth-child(1) {
+	animation-delay: 1s;
+}
 
 .name span:nth-child(11n) {
 	color: #085f63;
-	animation-delay: 2s;
+	animation-delay: 1.2s;
 }
 
 @media only screen and (min-width: 768px) {
