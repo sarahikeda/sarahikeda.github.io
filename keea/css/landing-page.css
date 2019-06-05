@@ -6,6 +6,7 @@ body {
 .logo {
   margin-top: -3rem;
   margin-left: -3.5rem;
+  max-width: 80%;
 }
 
 header.masthead {
