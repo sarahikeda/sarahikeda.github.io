@@ -1,0 +1,177 @@
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  padding-top: 8rem;
+  color: #6d6767;
+}
+
+header.masthead .mb-5 {
+  margin-top: -200px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 4rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.company-description {
+  font-size: 2rem;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.lead {
+  font-size: 1rem;
+  text-align: left;
+}
+
+.listed-features {
+  margin-top: 4rem;
+}
+
+.features-icons {
+  padding-top: 20rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.features-icons .integration {
+  background-color: #4D98ED;
+  margin-top: -20px;
+  padding: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .title {
+  color: #4D98ED;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+}
+
+.testimonials .mb-5 {
+  margin-bottom: 1rem !important;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.masthead .link {
+  margin-top: -150px;
+  font-size: 1.4rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.about {
+  padding-bottom: 20px;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+@media (max-width: 425px) {
+  .logo {
+    max-width: 400px;
+  }
+
+  .container {
+    width: 130%;
+  }
+
+  header.masthead .mb-4 {
+    margin-top: 40px;
+    border-size: none;
+  }
+
+  .company-description {
+    font-size: 1.5rem;
+  }
+
+  .features-icons {
+    padding-top: 6rem;
+  }
+
+  .testimonials {
+    padding-top: 0;
+  }
+}
