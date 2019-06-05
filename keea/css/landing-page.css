@@ -125,8 +125,10 @@ header.masthead h1 {
 }
 
 .masthead .link {
-  margin-top: -150px;
-  font-size: 1.4rem;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  color: #3d3a3a;
+  padding-left: 2em;
 }
 
 .call-to-action .overlay {
