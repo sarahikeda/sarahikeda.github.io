@@ -17,6 +17,9 @@ header.masthead {
   color: #6d6767;
 }
 
+.follow-up {
+  max-width: 70%;
+}
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 4rem;
