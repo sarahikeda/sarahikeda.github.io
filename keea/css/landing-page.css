@@ -1,12 +1,12 @@
 body {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: black;
+  color: #3d3a3a;
 }
 
 .logo {
   margin-top: -3rem;
   margin-left: -3.5rem;
-  max-width: 80%;
+  max-width: 50%;
 }
 
 header.masthead {
@@ -17,15 +17,6 @@ header.masthead {
   color: #6d6767;
 }
 
-header.masthead .mb-5 {
-  margin-top: -200px;
-}
-
-header.masthead h1 {
-  font-size: 2rem;
-}
-
-
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 4rem;
@@ -35,23 +26,13 @@ header.masthead h1 {
   }
 }
 
+.help {
+  font-size: 1.2rem;
+}
+
 .company-description {
-  font-size: 1.5rem;
-}
-
-.showcase .showcase-text {
-  padding: 3rem;
-}
-
-.showcase .showcase-img {
-  min-height: 30rem;
-  background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .showcase .showcase-text {
-    padding: 7rem;
-  }
+  font-size: 1.2rem;
+  display: block;
 }
 
 .lead {
@@ -64,8 +45,7 @@ header.masthead h1 {
 }
 
 .features-icons {
-  padding-top: 20rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
 }
 
 .features-icons h3 {
@@ -85,8 +65,8 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .testimonials .title {
@@ -109,7 +89,6 @@ header.masthead h1 {
 .testimonials h3 {
   font-size: 1.5rem;
 }
-
 
 .call-to-action {
   position: relative;
@@ -137,8 +116,8 @@ footer.footer {
 
 @media (max-width: 425px) {
   .logo {
-    max-width: 400px;
     margin-top: -100px;
+    max-width: 70%;
   }
 
   .container {
@@ -146,7 +125,11 @@ footer.footer {
   }
 
   header.masthead .help {
-    margin-top: -20px;
+    margin-top: -3px;
+  }
+
+  .help {
+    font-size: 1rem;
   }
 
   .company-description {
@@ -158,7 +141,7 @@ footer.footer {
   }
 
   .testimonials {
-    padding-top: 0;
+    padding-top: 4rem;
   }
 
   .listed-features {
