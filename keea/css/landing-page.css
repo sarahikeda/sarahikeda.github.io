@@ -36,7 +36,7 @@ header.masthead h1 {
 }
 
 .company-description {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .showcase .showcase-text {
@@ -125,16 +125,6 @@ header.masthead h1 {
   padding-left: 2em;
 }
 
-.call-to-action .overlay {
-  position: absolute;
-  background-color: white;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-}
-
 .about {
   padding-bottom: 20px;
 }
@@ -148,19 +138,19 @@ footer.footer {
 @media (max-width: 425px) {
   .logo {
     max-width: 400px;
+    margin-top: -100px;
   }
 
   .container {
     width: 130%;
   }
 
-  header.masthead .mb-4 {
-    margin-top: 40px;
-    border-size: none;
+  header.masthead .help {
+    margin-top: -20px;
   }
 
   .company-description {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .features-icons {
@@ -170,4 +160,9 @@ footer.footer {
   .testimonials {
     padding-top: 0;
   }
+
+  .listed-features {
+    margin-top: 0;
+  }
+
 }
