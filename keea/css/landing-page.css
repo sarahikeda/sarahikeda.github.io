@@ -59,6 +59,10 @@ header.masthead {
   max-width: 20rem;
 }
 
+.features-icons .headlines{
+  color: #4D98ED
+}
+
 .features-icons .integration {
   background-color: #4D98ED;
   margin-top: -20px;
@@ -74,7 +78,6 @@ header.masthead {
 
 .testimonials .title {
   color: #4D98ED;
-
 }
 
 .testimonials .testimonial-item {
@@ -93,12 +96,17 @@ header.masthead {
   font-size: 1.5rem;
 }
 
-.call-to-action {
-  position: relative;
-  background-color: white;
-  background-size: cover;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+.testimonials .rhodes {
+  margin-left: 3rem;
+}
+
+.testimonial-item .ef {
+  margin-left: -1.2rem;
+}
+
+.support {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 .masthead .link {
