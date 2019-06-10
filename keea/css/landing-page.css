@@ -112,7 +112,6 @@ header.masthead {
 .masthead .link {
   font-size: 1.6rem;
   color: #3d3a3a;
-  padding-left: 2em;
 }
 
 .about {
@@ -129,10 +128,7 @@ footer.footer {
   .logo {
     margin-top: -100px;
     max-width: 70%;
-  }
-
-  .container {
-    width: 130%;
+    margin-left: 0px;
   }
 
   header.masthead .help {
